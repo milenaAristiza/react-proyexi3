@@ -1,6 +1,7 @@
-.body_quienes_somos {
-    /* background-image: url(../img/quienes_somos/fondo2.jpg); */
-    background-size: cover;
+body {
+    text-align: justify;
+    overflow-x: hidden;
+    background-color: #ffffff;
 }
 
 .capa_azul {

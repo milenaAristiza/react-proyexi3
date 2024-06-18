@@ -1,3 +1,9 @@
+body {
+  text-align: justify;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
 header {
   position: fixed;
   height: 10vh;
@@ -211,47 +217,4 @@ select:hover {
     flex-direction: column;
     padding-right: 20vw;
   }
-
-  /* header .navbar ul {
-      flex-direction: column;
-    }
-  
-    header .navbar ul li {
-      width: 100%;
-    }
-  
-    header .navbar ul li ul {
-      position: relative;
-      width: 100%;
-    }
-  
-    header .navbar ul li ul li {
-      background-color: #ffffff;
-    }
-  
-    header .navbar ul li ul li ul {
-      width: 100%;
-      left: 0;
-    }
-    header {
-      padding: 15px;
-      justify-content: space-around;
-      /*   */
-
-
-  /* header label {
-  display: initial;
-}
-
-header .navbar {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: #ffffff;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  display: none;
-}
-
-*/
 }
