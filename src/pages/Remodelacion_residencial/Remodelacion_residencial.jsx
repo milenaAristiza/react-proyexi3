@@ -1,4 +1,3 @@
-import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Nav from '../../components/nav/Nav';
@@ -13,7 +12,6 @@ import img15 from '../../assets/images/fachadas/15.jpeg';
 import img5 from '../../assets/images/obras_civiles/5.png';
 import img11 from '../../assets/images/remodelacion_residencial/11.png';
 import './Remodelacion_residencial.css';
-// import 'react-responsive-modal/styles.css';
 import Servicios from '../../components/Servicios/Servicios';
 
 const RemodelacionResidencial = () => {

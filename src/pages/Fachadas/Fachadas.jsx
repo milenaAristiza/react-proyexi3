@@ -1,4 +1,3 @@
-import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Nav from '../../components/nav/Nav';
