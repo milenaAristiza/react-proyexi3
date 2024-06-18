@@ -8,6 +8,7 @@ import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
 import img5 from '../../assets/images/obras_civiles/5.png';
 import './Remodelacion_comercial.css';
+import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Servicios from '../../components/Servicios/Servicios';
