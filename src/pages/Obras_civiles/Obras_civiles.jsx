@@ -9,18 +9,7 @@ import img_18 from '../../assets/images/fachadas/18.jpeg';
 import img_4 from '../../assets/images/fachadas/4.jpeg';
 import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
-import img15 from '../../assets/images/fachadas/15.jpeg';
-import img1 from '../../assets/images/obras_civiles/1.png';
-import img2 from '../../assets/images/obras_civiles/2.png';
-import img3 from '../../assets/images/obras_civiles/3.png';
-import img4 from '../../assets/images/obras_civiles/4.png';
-import img5 from '../../assets/images/obras_civiles/5.png';
-import img6 from '../../assets/images/obras_civiles/6.png';
-import img7 from '../../assets/images/obras_civiles/7.png';
-import img8 from '../../assets/images/obras_civiles/8.png';
-import img9 from '../../assets/images/obras_civiles/9.png';
 import img10 from '../../assets/images/obras_civiles/10.png';
-import img11 from '../../assets/images/remodelacion_residencial/11.png';
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
 

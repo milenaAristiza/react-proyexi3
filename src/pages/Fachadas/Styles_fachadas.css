@@ -499,103 +499,22 @@ body {
     align-items: end;
     background-image: none;
   }
+
+  .container__text__div1__section2__fachadas {
+    align-items: center;
+  }
+
+  .section2__fachadas {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container_slider_fachadas .swiper {
+    width: 80vw;
+    height: 30vh;
+}
 }
 
 @media screen and (max-width:800px) {
-  /* .cont1__fachadas {
-      flex-direction: column;
-    }
-  
-    .swiper {
-      width: 100%;
-    }
-  
-    .container__text__carrusel {
-      width: 100%;
-    }
-  
-    .fachadas,
-    .section2 {
-      display: none;
-    }
-  
-    .section1_mobile,
-    .section2_mobile,
-    .section3_mobile {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(34, 1fr);
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.66);
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .section3_mobile {
-      height: 50vh;
-    }
-  
-    .img__portada__fachadas {
-      grid-column: 1 / 13;
-      grid-row: 8 / 22;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .img__portada__fachadas>img {
-      height: 45vh;
-    }
-  
-    .fondo_fachadas_mobile {
-      background-image: url(../img/fachadas/img_principal.jpeg);
-      background-size: cover;
-    }
-  
-    .cont1__text {
-      height: 100%;
-      width: 100%;
-      grid-column: 2 / 12;
-      grid-row: 17 / 33;
-  
-    }
-  
-    .cont1__text h3 {
-      font-size: 3vh;
-    }
-  
-    .swiper-horizontal {
-      grid-column: 1 / 13;
-      grid-row: 24 / 32;
-      height: 30vh;
-    }
-  
-    .swiper-slide-active {
-      width: 54vw !important;
-    }
-  
-    .title1_services {
-      font-size: 12vw;
-    }
-  
-    .button_portafolio button {
-      width: 30vw !important;
-    }
-  
-    .swiper-pagination-fraction {
-      font-weight: 900;
-    }
-  
-    .img_principal_fachadas {
-      width: 80vw;
-      height: auto !important;
-    }
-  
-    .cont1__text p {
-      font-size: 2.5vh;
-    }
-  
-    .cont1__text h2 {
-      position: relative;
-    } */
+
 }

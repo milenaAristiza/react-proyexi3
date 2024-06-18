@@ -8,7 +8,7 @@ import Remodelacion_residencial from "../pages/Remodelacion_residencial/Remodela
 import ObrasCiviles from "../pages/Obras_civiles/Obras_civiles";
 
 export const AppRouter = () => {
-    return(
+    return (
         <Routes>
             <Route path='/login' element={<h1>login</h1>} />
             <Route path='/' element={<Index />} />

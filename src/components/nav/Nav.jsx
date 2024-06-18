@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Nav.css';
-import logoBlanco from './LOGOBLANCO.png';
-import menuHamburguesa from './menu_hamburguesa.png';
-import flechaAbajo from './flechaAbajo.png';
+import logoBlanco from '../../assets/images/nav/LOGOBLANCO.png';
+import menuHamburguesa from '../../assets/images/nav/menu_hamburguesa.png';
+import flechaAbajo from '../../assets/images/nav/flechaAbajo.png';
 import { Link } from 'react-router-dom';
 
 const Nav = ({ str }) => {
@@ -27,9 +27,9 @@ const Nav = ({ str }) => {
                     </label>
                 <nav className="navbar">
                     <ul>
-                        <li ><Link to='/'>Inicio</Link></li>
-                        <li><Link to='/proyectos'>Proyectos</Link></li>
-                        <li >
+                        <li className={typeof location === "undefined" ? "indicator" : ""}><Link to='/'>Inicio</Link></li>
+                        <li className={location === "proyectos" ? "indicator" : ""}><Link to='/proyectos'>Proyectos</Link></li>
+                        <li className={location === "fachadas" || location === "remodelacion_comercial" || location === "remodelacion_residencial" || location === "obras_civiles" ? "indicator" : ""}>
                             <Link to='' className="services">Servicios 
                             <img className="flechaAbajo" src={flechaAbajo} alt="Flecha Abajo" />
                             </Link>
@@ -40,7 +40,7 @@ const Nav = ({ str }) => {
                                 <li><Link to='/obras_civiles'>Obras civiles</Link></li>
                             </ul>
                         </li>
-                        <li><Link to='/quienes_somos'>Quienes somos</Link></li>
+                        <li className={location === "quienes_somos" ? "indicator" : ""}><Link to='/quienes_somos'>Quienes somos</Link></li>
                         <li><button className="button_nav"><Link to="" className="button">Contacto</Link></button></li>
                     </ul>
                 </nav>

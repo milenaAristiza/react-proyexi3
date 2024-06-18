@@ -9,8 +9,6 @@ import img_18 from '../../assets/images/fachadas/18.jpeg';
 import img_4 from '../../assets/images/fachadas/4.jpeg';
 import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
-import img15 from '../../assets/images/fachadas/15.jpeg';
-import img5 from '../../assets/images/obras_civiles/5.png';
 import img11 from '../../assets/images/remodelacion_residencial/11.png';
 import './Remodelacion_residencial.css';
 import Servicios from '../../components/Servicios/Servicios';

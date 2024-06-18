@@ -9,7 +9,6 @@ import img_18 from '../../assets/images/fachadas/18.jpeg';
 import img_4 from '../../assets/images/fachadas/4.jpeg';
 import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
-import img15 from '../../assets/images/fachadas/15.jpeg';
 import imgPrincipal from '../../assets/images/fachadas/imgPrincipal.jpeg';
 import img_22 from '../../assets/images/fachadas/22.jpeg';
 import img_23 from '../../assets/images/fachadas/23.jpeg';
@@ -20,7 +19,6 @@ import img_27 from '../../assets/images/fachadas/27.jpeg';
 import img_28 from '../../assets/images/fachadas/28.jpeg';
 import img_29 from '../../assets/images/fachadas/29.jpeg';
 import './Styles_fachadas.css';
-// import 'react-responsive-modal/styles.css';
 import Servicios from '../../components/Servicios/Servicios';
 
 const Fachadas = () => {
