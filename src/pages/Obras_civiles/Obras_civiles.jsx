@@ -22,7 +22,6 @@ import img9 from '../../assets/images/obras_civiles/9.png';
 import img10 from '../../assets/images/obras_civiles/10.png';
 import img11 from '../../assets/images/remodelacion_residencial/11.png';
 import './Obras_civiles.css';
-// import 'react-responsive-modal/styles.css';
 import Servicios from '../../components/Servicios/Servicios';
 
 const ObrasCiviles = () => {
