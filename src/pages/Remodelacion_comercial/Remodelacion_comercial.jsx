@@ -6,7 +6,7 @@ import img_18 from '../../assets/images/fachadas/18.jpeg';
 import img_4 from '../../assets/images/fachadas/4.jpeg';
 import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
-import img5 from '../../assets/images/obras_civiles/5.png';
+import imgrecort from '../../assets/images/obras_civiles/imgrecort.png';
 import './Remodelacion_comercial.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -22,7 +22,7 @@ function Remodelacion_comercial() {
     const [args, setArgs] = useState({
         title: "Remodelacion comercial",
         text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN SAS, garantizamos la excelencia de nuestro trabajo y proporcionamos a los clientes una atención personalizada según sus necesidades específicas. Contáctenos hoy para comenzar la transformación de su espacio comercial. Juntos, podemos crear un ambiente que no solo refleje la esencia de su marca, sino que también impulse su éxito comercial.",
-        image: img5,
+        image: imgrecort,
         slider: [img_3, img_18, fondo_section2, img_4, img_8]
     });
 

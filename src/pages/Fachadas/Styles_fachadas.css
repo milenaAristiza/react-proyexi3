@@ -405,7 +405,7 @@ body {
 
 @media only screen and (min-width:320px) and (max-width:768px) {
   .fachadas {
-    height: 130vh;
+    height: 135vh;
     align-items: end;
   }
 
