@@ -27,11 +27,11 @@ body {
 }
 
 .image_principal_facahadas {
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 
 .swiper-button-prev:after,
@@ -52,7 +52,7 @@ body {
 }
 
 .container__text {
-  width: 70vw;
+  width: 55vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,7 +359,7 @@ body {
 }
 
 .text__principal__fachadas {
-  width: 45vw;
+  width: 40vw;
 }
 
 .button_portafolio button {
@@ -403,10 +403,14 @@ body {
   }
 }
 
+.swiper-pagination-fraction {
+  color: #ffffff;
+}
+
 @media only screen and (min-width:320px) and (max-width:768px) {
   .fachadas {
-    height: 135vh;
-    align-items: end;
+    height: 155vh;
+    align-items: center;
   }
 
   .div1__fachadas {
@@ -474,9 +478,7 @@ body {
   .container_slider_fachadas .swiper {
     width: 80vw;
     height: 30vh;
-}
+  }
 }
 
-@media screen and (max-width:800px) {
-
-}
+@media screen and (max-width:800px) {}
