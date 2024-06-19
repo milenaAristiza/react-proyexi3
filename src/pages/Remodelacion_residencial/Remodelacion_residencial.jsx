@@ -12,6 +12,7 @@ import img_8 from '../../assets/images/fachadas/8.jpeg';
 import img11 from '../../assets/images/remodelacion_residencial/11.png';
 import './Remodelacion_residencial.css';
 import Servicios from '../../components/Servicios/Servicios';
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 const RemodelacionResidencial = () => {
     const [url, setUrl] = useState('');
@@ -29,6 +30,7 @@ const RemodelacionResidencial = () => {
 
     return (
         <div>
+            <Button_whats />
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />

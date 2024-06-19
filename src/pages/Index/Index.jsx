@@ -6,6 +6,7 @@ import remodelacionR from '../../assets/images/remodelacion_residencial/11.png'
 import obras from '../../assets/images/obras_civiles/5.png'
 import fondoCards from '../../assets/images/fachadas/3.jpeg';
 import Footer from '../../components/Footer/Footer';
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 function Home() {
   //   const [url, setUrl] = useState('');
@@ -17,6 +18,7 @@ function Home() {
 
   return (
     <div>
+      <Button_whats />
       <Nav />
       <section className="container_portada_index">
         <div className="portada">

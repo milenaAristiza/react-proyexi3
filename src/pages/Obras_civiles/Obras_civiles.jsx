@@ -12,6 +12,7 @@ import img_8 from '../../assets/images/fachadas/8.jpeg';
 import img5 from '../../assets/images/obras_civiles/5.png';
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 const ObrasCiviles = () => {
     const [url, setUrl] = useState('');
@@ -29,6 +30,7 @@ const ObrasCiviles = () => {
 
     return (
         <div>
+            <Button_whats />
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />

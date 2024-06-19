@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import img_text_quienes_somos from '../../assets/images/quienes_somos/img_text.jpg';
 import img_11 from '../../assets/images/fachadas/11.jpeg';
 import React, { useState, useEffect } from 'react';
+import Button_whats from '../../components/Button_whats/Button_whats'
 import { Link } from 'react-router-dom';
 
 const QuienesSomos = () => {
@@ -15,6 +16,7 @@ const QuienesSomos = () => {
 
     return (
         <div>
+            <Button_whats />
             <Nav str={url} />
             <section className="section2_quienes_comos">
                 <div className="div1_section2_quienes_comos">

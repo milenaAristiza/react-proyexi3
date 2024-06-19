@@ -12,6 +12,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Servicios from '../../components/Servicios/Servicios';
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 function Remodelacion_comercial() {
     const [url, setUrl] = useState();
@@ -28,6 +29,7 @@ function Remodelacion_comercial() {
 
     return (
         <div>
+            <Button_whats />
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />
