@@ -10,6 +10,18 @@ import img_4 from '../../assets/images/fachadas/4.jpeg';
 import fondo_section2 from '../../assets/images/fachadas/fondo_section2.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
 import img5 from '../../assets/images/obras_civiles/5.png';
+import img1j from '../../assets/images/obras_civiles/1.jpeg';
+import img2j from '../../assets/images/obras_civiles/2.jpeg';
+import img3j from '../../assets/images/obras_civiles/3.jpeg';
+import img4j from '../../assets/images/obras_civiles/4.jpeg';
+import img5j from '../../assets/images/obras_civiles/5.jpeg';
+import img6j from '../../assets/images/obras_civiles/6.jpeg';
+import img7j from '../../assets/images/obras_civiles/7.jpeg';
+import img8j from '../../assets/images/obras_civiles/8.jpeg';
+import img9j from '../../assets/images/obras_civiles/9.jpeg';
+import img10j from '../../assets/images/obras_civiles/10.jpeg';
+import img11j from '../../assets/images/obras_civiles/11.jpeg';
+import img12j from '../../assets/images/obras_civiles/12.jpeg';
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
 import Button_whats from '../../components/Button_whats/Button_whats'
@@ -25,7 +37,7 @@ const ObrasCiviles = () => {
         title: "Obras civiles",
         text: "¡Descubre la magia de construir tus sueños! ¿Quieres convertir tus ideas en realidad? En nuestro servicio de construcción, hacemos posible lo imposible. Deja que nuestros expertos arquitectos y constructores den vida a tus proyectos, con un toque de innovación y calidad que te sorprenderá. Edificios - Bodegas - Casas y mas.",
         image: img5,
-        slider: [img_3, img_18, fondo_section2, img_4, img_8]
+        slider: [img10j, img1j, img2j, img3j, img4j, img5j, img6j, img7j, img8j, img9j, img11j, img12j]
     });
 
     return (
