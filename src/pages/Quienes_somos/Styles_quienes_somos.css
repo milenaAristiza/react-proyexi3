@@ -317,7 +317,10 @@ body {
     }
 
     .div2_section2_quienes_comos button, .container_text_button button {
-        width: 30vw;
+        width: 39vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .div2_section2_quienes_comos p {

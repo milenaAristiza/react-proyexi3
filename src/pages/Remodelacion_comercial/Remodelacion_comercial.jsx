@@ -36,7 +36,7 @@ function Remodelacion_comercial() {
         title: "Remodelacion comercial",
         text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN SAS, garantizamos la excelencia de nuestro trabajo y proporcionamos a los clientes una atención personalizada según sus necesidades específicas. Contáctenos hoy para comenzar la transformación de su espacio comercial. Juntos, podemos crear un ambiente que no solo refleje la esencia de su marca, sino que también impulse su éxito comercial.",
         image: imgrecort,
-        slider: [imgrecort, img_1j, img_2j, img_3j, img_4j, img_5j, img_6j, img_7j, img_8j, img_9j, img_10j, img_11j, img_12j]
+        slider: [imgrecort, img_1j, img_2j, img_3j, img_4j, img_5j, img_10j, img_11j, img_12j]
     });
 
     return (
