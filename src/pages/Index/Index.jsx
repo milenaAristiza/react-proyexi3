@@ -7,6 +7,7 @@ import obras from '../../assets/images/obras_civiles/5.png'
 import fondoCards from '../../assets/images/fachadas/3.jpeg';
 import Footer from '../../components/Footer/Footer';
 import Button_whats from '../../components/Button_whats/Button_whats'
+import React, { useRef } from 'react';
 
 function Home() {
   //   const [url, setUrl] = useState('');

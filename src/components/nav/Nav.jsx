@@ -41,7 +41,10 @@ const Nav = ({ str }) => {
                             </ul>
                         </li>
                         <li className={location === "quienes_somos" ? "indicator" : ""}><Link to='/quienes_somos'>Quienes somos</Link></li>
-                        <li><button className="button_nav"><Link to="" className="button">Contacto</Link></button></li>
+                        {/* <li><button className="button_nav"><Link to="#footer" className="button">Contacto</Link></button></li> */}
+                        <li><a href="#footer" className="button">
+                            <button className="button_nav">Contacto</button>
+                    </a></li>
                     </ul>
                 </nav>
             </header>

@@ -55,7 +55,7 @@ header .navbar ul li a:hover {
 .button_nav {
   background-color: #ffffff;
   border-color: #000000;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
 }
 
 header .navbar ul li .button:hover {
