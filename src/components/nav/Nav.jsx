@@ -20,10 +20,10 @@ const Nav = ({ str }) => {
                 <i className="fa fa-whatsapp icono"></i>
             </Link>
             <header>
-                <img className="logo" src={logoBlanco} alt="Logo Blanco" />
+                <img className="logo" src={logoBlanco} alt="Logo Blanco proyexi" />
                 <input type="checkbox" id="menu-bar" />
                 <label htmlFor="menu-bar">
-                    <img className='img_menu_h' src={menuHamburguesa} alt="Menú Hamburguesa" />
+                    <img className='img_menu_h' src={menuHamburguesa} alt="Menú desplegable" />
                     </label>
                 <nav className="navbar">
                     <ul>

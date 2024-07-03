@@ -39,7 +39,7 @@ function Home() {
       <section className="servicios1">
         <div className="container__servicios">
           <div>
-            <img className="img_cards" src={fondoCards} alt="Fondo" />
+            <img className="img_cards" src={fondoCards} alt="imagen principal de la sección fachadas" />
             <h3>MANTENIMIENTO DE FACHADAS</h3>
             <Link to='/fachadas'>
               <button className="button_ver_mas">
@@ -48,7 +48,7 @@ function Home() {
             </Link>
           </div>
           <div>
-            <img className="img_cards" src={remodelacionR} alt="Remodelación" />
+            <img className="img_cards" src={remodelacionR} alt="imagen principal de la sección remodelación residencial" />
             <h3>REMODELACION DE ESPACIOS</h3>
             <Link to='/remodelacion_comercial'>
               <button className="button_ver_mas">
@@ -57,7 +57,7 @@ function Home() {
             </Link>
           </div>
           <div>
-            <img className="img_cards" src={obras} alt="Obras" />
+            <img className="img_cards" src={obras} alt="imagen principal de la sección de obras civiles" />
             <h3>CONSTRUCCIÓN DE OBRAS CIVILES</h3>
             <Link to='/obras_civiles'>
               <button className="button_ver_mas">

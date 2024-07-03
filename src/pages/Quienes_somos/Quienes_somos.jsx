@@ -18,7 +18,7 @@ const QuienesSomos = () => {
             <Nav str={url} />
             <section className="section2_quienes_comos">
                 <div className="div1_section2_quienes_comos">
-                    <img src={img_text_quienes_somos} alt="¿Quiénes somos?" />
+                    <img src={img_text_quienes_somos} alt="Imagen equipo de trabajo de proyexi" />
                 </div>
                 <div className="div2_section2_quienes_comos">
                     <h2 className="title_quienesS">¿POR QUÉ ELEGIRNOS?</h2>
