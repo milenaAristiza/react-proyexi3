@@ -19,8 +19,8 @@ const Footer = () => {
                 <div className="box">
                     <h2>Teléfonos</h2>
                     <p>3125883290</p>
-                    <p>3052532537</p>
-                    <p>6615971</p>
+                    {/* <p>3052532537</p> */}
+                    {/* <p>6615971</p> */}
 
                     <h2>Correo</h2>
                     <p>administraciondc@proyexidisenoyconstruccion.com</p>
