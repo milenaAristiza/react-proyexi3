@@ -20,11 +20,11 @@ const Footer = () => {
                     <h2>Teléfonos</h2>
                     <p>3125883290</p>
                     <p>0316615971</p>
-                    <p>6615971</p>
+                    {/* <p>6615971</p> */}
 
                     <h2>Correo</h2>
                     <p>administraciondc@proyexidisenoyconstruccion.com</p>
-                    <p>Proyexidc@gmail.com</p>
+                    <p>proyexidc@gmail.com</p>
                 </div>
                 <div className="box">
                     <h2>Síguenos</h2>
@@ -43,7 +43,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <h2>Dirección</h2>
-                    <p>Dg 67 B #28-21 Candelaria la nueva, ciudad Bogotá</p>
+                    <p>Dg 67 B #28-21</p>
                 </div>
             </div>
         </footer>
