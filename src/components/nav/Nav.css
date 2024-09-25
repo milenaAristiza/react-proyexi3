@@ -46,16 +46,9 @@ header .navbar ul li a {
   text-decoration: none;
 }
 
-header .navbar ul li a:hover {
-  /* background-color: #000000;
-    color: #ffffff; */
-  /* font-size: 5vh; */
-}
-
 .button_nav {
   background-color: #ffffff;
   border-color: #000000;
-  /* margin-left: 2vw; */
 }
 
 header .navbar ul li .button:hover {
@@ -129,7 +122,6 @@ header label {
   width: 50vw;
   display: flex;
   align-items: center;
-  /* background-color: blue; */
 }
 
 .cont_logo img {
@@ -140,7 +132,6 @@ header label {
 
 .content_nav {
   width: 50vw;
-  /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -170,8 +161,7 @@ select:hover {
   color: #04083a;
 }
 
-.button_contact {
-  /* border-color: 1px solid black; */
+.button_contact { 
   border-width: 1px;
   border-style: solid;
   border-color: #04083a;

@@ -14,14 +14,12 @@ body {
   align-items: center;
   display: flex;
   background-size: cover;
-  /* background-color: rgba(0, 0, 0, 0.66); */
 }
 
 .div1__fachadas {
   height: 100vh;
   display: flex;
   width: 100vw;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -57,13 +55,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-/* .container__text h2 {
-    text-transform: uppercase;
-    font-size: 7vh;
-    font-weight: 900;
-    margin: 0;
-  } */
 
 .container__text {
   font-size: 3.5vh;
@@ -104,7 +95,6 @@ body {
 }
 
 .section2 {
-  /* background-color: rgba(0, 0, 0, 0.66); */
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -184,7 +174,6 @@ body {
   color: #007aff;
   text-decoration: none;
   padding: 4px 10px;
-  /* border-radius: 4px; */
   margin: 0 10px;
   font-size: 13px;
 }
@@ -244,11 +233,6 @@ body {
 
 .border {
   color: #ffffff;
-  /* text-shadow:
-      -1px -1px 0 black,
-      1px -1px 0 black,
-      -1px 1px 0 black,
-      1px 1px 0 black; */
 }
 
 .wave {
@@ -262,7 +246,6 @@ body {
 }
 
 .titleanimado h2 {
-  /* font-size: 15vmin; */
   position: absolute;
 }
 
@@ -283,7 +266,6 @@ body {
 .section2__fachadas {
   width: 100vw;
   height: 100vh;
-  /* background-image: url(../../assets/images/fachadas/11.jpeg); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,10 +294,8 @@ body {
 }
 
 .container__text__div1__section2__fachadas h3 {
-  /* font-size: 7vh; */
   width: 33vw;
   margin-top: 0;
-  /* font-weight: 400; */
   font-size: 4vw;
   color: #000000;
   font-weight: 400;
