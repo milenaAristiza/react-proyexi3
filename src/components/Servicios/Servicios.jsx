@@ -27,8 +27,6 @@ function Servicios({ args }) {
                         </div>
                     </div>
                     <div className='image_principal_facahadas'>
-                        {/* <img src={params.image} alt="Imagen principal" /> */}
-
                         <div className="container_slider_fachadas">
                             <Swiper
                                 pagination={{ type: 'fraction' }}
