@@ -3,7 +3,7 @@ import Nav from '../../components/nav/Nav';
 import Footer from '../../components/Footer/Footer';
 import img_text_quienes_somos from '../../assets/images/quienes_somos/img_text.jpg';
 import React, { useState, useEffect } from 'react';
-import Button_whats from '../../components/Button_whats/Button_whats'
+// import Button_whats from '../../components/Button_whats/Button_whats'
 
 const QuienesSomos = () => {
     const [url, setUrl] = useState("");
@@ -14,7 +14,7 @@ const QuienesSomos = () => {
 
     return (
         <div>
-            <Button_whats />
+            {/* <Button_whats /> */}
             <Nav str={url} />
             <section className="section2_quienes_comos">
                 <div className="div1_section2_quienes_comos">
