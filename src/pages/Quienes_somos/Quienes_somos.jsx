@@ -29,11 +29,11 @@ const QuienesSomos = () => {
                         Remodelaciones: Renovamos y transformamos cualquier espacio para que se ajuste a tus necesidades cambiantes.
                         Diseño arquitectónico: Nuestros expertos dan forma a tus ideas, creando planos precisos y estéticamente impresionantes.
                     </p>
-                    <a href="#footer">
+                    {/* <a href="#footer">
                         <div className="container__button2">
                             <button>Contacto</button>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </section>
             <section className="section1_quienes_comos">
@@ -46,11 +46,11 @@ const QuienesSomos = () => {
                             Calidad insuperable: Utilizamos los materiales más confiables y las técnicas de construcción más avanzadas para garantizar resultados de primera clase.
                             Diseños personalizados: Entendemos que cada cliente es único, por lo que adaptamos nuestros diseños a tus gustos y necesidades, ¡siempre superando expectativas!
                         </p>
-                        <a href="#footer">
+                        {/* <a href="#footer">
                             <div className="container__button">
                                 <button>Contacto</button>
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </section>
