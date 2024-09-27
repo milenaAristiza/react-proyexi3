@@ -21,7 +21,7 @@ import img_8j2 from '../../assets/images/remodelacion_comercial/7.jpeg'
 import img_9j2 from '../../assets/images/remodelacion_comercial/8.jpeg'
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
-import Button_whats from '../../components/Button_whats/Button_whats'
+// import Button_whats from '../../components/Button_whats/Button_whats'
 
 const ObrasCiviles = () => {
     const [url, setUrl] = useState('');
@@ -39,7 +39,7 @@ const ObrasCiviles = () => {
 
     return (
         <div>
-            <Button_whats />
+            {/* <Button_whats /> */}
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />
