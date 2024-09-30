@@ -52,7 +52,7 @@ import img_1603 from '../../assets/images/fachadas/1603.jpeg';
 import term from '../../assets/images/fachadas/term.jpeg';
 import './Styles_fachadas.css';
 import Servicios from '../../components/Servicios/Servicios';
-// import Button_whats from '../../components/Button_whats/Button_whats'
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 const Fachadas = () => {
     const [url, setUrl] = useState("");
@@ -70,7 +70,7 @@ const Fachadas = () => {
 
     return (
         <div>
-            {/* <Button_whats /> */}
+            <Button_whats />
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />

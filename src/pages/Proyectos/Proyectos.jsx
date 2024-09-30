@@ -22,7 +22,7 @@ import slider18 from '../../assets/images/imagenes carrusel/18.png'
 import slider19 from '../../assets/images/imagenes carrusel/19.png'
 import slider20 from '../../assets/images/imagenes carrusel/20.png'
 import Slider from '../../components/Slider/Slider'
-// import Button_whats from '../../components/Button_whats/Button_whats'
+import Button_whats from '../../components/Button_whats/Button_whats'
 import './Styles_proyectos.css'
 
 const Proyectos = () => {
@@ -38,7 +38,7 @@ const Proyectos = () => {
 
   return (
     <div>
-      {/* <Button_whats /> */}
+      <Button_whats />
       <Nav str={url} />
       <section className="content_proyectos">
         <div className="container_text_proyectos">

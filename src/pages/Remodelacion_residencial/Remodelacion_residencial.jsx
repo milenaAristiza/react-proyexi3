@@ -33,7 +33,7 @@ import img26j from '../../assets/images/remodelacion_residencial/17.png';
 import img27j from '../../assets/images/remodelacion_residencial/18.png';
 import './Remodelacion_residencial.css';
 import Servicios from '../../components/Servicios/Servicios';
-// import Button_whats from '../../components/Button_whats/Button_whats'
+import Button_whats from '../../components/Button_whats/Button_whats'
 
 const RemodelacionResidencial = () => {
     const [url, setUrl] = useState('');
@@ -51,7 +51,7 @@ const RemodelacionResidencial = () => {
 
     return (
         <div>
-            {/* <Button_whats /> */}
+            <Button_whats />
             <Nav str={url} />
             <Servicios args={args} />
             <Footer />
