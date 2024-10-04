@@ -55,6 +55,23 @@ import Servicios from '../../components/Servicios/Servicios';
 import Button_whats from '../../components/Button_whats/Button_whats'
 
 const Fachadas = () => {
+
+    useEffect(() => {
+        // Crear el script para Google Tag Manager
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+        script.async = true;
+        document.head.appendChild(script);
+    
+        // Definir la función gtag y configurarla
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16614584501');
+    });
+
     const [url, setUrl] = useState("");
 
     useEffect(() => {
