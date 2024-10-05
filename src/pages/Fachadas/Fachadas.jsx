@@ -56,6 +56,15 @@ import Button_whats from '../../components/Button_whats/Button_whats'
 
 const Fachadas = () => {
 
+    if (typeof window.gtag === 'function') {
+        // Ejecuta el evento de conversión
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-16614584501/OdjECOH3gLwZELXhufI9',
+          'value': 1.0,
+          'currency': 'COP'
+        });
+    }
+
     useEffect(() => {
         // Crear el script para Google Tag Manager
         const script = document.createElement('script');
