@@ -43,7 +43,8 @@ const Footer = () => {
                         </Link>
                     </div>
                     <h2>Dirección</h2>
-                    <p>Dg 67 B #28-21</p>
+                    <p>Altos de madelena</p>
+                    <p>TV 60 59 24 SUR</p>
                 </div>
             </div>
         </footer>
