@@ -1,4 +1,4 @@
-// import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "./Index.css"
 import Nav from '../../components/nav/Nav';
@@ -7,9 +7,55 @@ import obras from '../../assets/images/obras_civiles/5.png'
 import fondoCards from '../../assets/images/fachadas/3.jpeg';
 import Footer from '../../components/Footer/Footer';
 import Button_whats from '../../components/Button_whats/Button_whats'
-import React, { useRef } from 'react';
+// import React, { useRef } from 'react';
 
 function Home() {
+
+  useEffect(() => {
+    // Cargar el script de Google Tag Manager
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+    document.head.appendChild(script);
+
+    // Inicializar el gtag
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-16614584501');
+  });
+
+  useEffect(() => {
+    // Crear el script AMP
+    const script = document.createElement('script');
+    script.async = true;
+    script.setAttribute('custom-element', 'amp-analytics');
+    script.src = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
+    document.head.appendChild(script);
+  });
+
+  useEffect(() => {
+    // Cargar el script de Google Tag Manager (GTM)
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+    document.head.appendChild(script);
+
+    // Inicializar gtag con la configuración proporcionada en el JSON del amp-analytics
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+  
+      // Configurar el ID de Google Ads con el grupo 'default'
+      gtag('config', 'AW-16614584501', {
+        groups: 'default'
+      });
+    });
   //   const [url, setUrl] = useState('');
 
   //   useEffect(() => {

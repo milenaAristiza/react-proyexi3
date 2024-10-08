@@ -1,10 +1,57 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 function Servicios({ args }) {
+
+    useEffect(() => {
+        // Cargar el script de Google Tag Manager
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+        document.head.appendChild(script);
+
+        // Inicializar el gtag
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16614584501');
+    });
+
+    useEffect(() => {
+        // Crear el script AMP
+        const script = document.createElement('script');
+        script.async = true;
+        script.setAttribute('custom-element', 'amp-analytics');
+        script.src = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
+        document.head.appendChild(script);
+      });
+
+      useEffect(() => {
+        // Cargar el script de Google Tag Manager (GTM)
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+        document.head.appendChild(script);
+    
+        // Inicializar gtag con la configuración proporcionada en el JSON del amp-analytics
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            window.dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+      
+          // Configurar el ID de Google Ads con el grupo 'default'
+          gtag('config', 'AW-16614584501', {
+            groups: 'default'
+          });
+        });
+
     const [params, setParams] = useState(args);
 
     return (
@@ -20,9 +67,9 @@ function Servicios({ args }) {
 
                         <div className="container_button_portafolio">
                             {/* <a href="./img/Portafolio PROYEXI.pdf" download="Portafolio" className="button_portafolio"> */}
-                                <button>
-                                    <p>Portafolio</p>
-                                </button>
+                            <button>
+                                <p>Portafolio</p>
+                            </button>
                             {/* </a> */}
                         </div>
                     </div>

@@ -56,29 +56,76 @@ import Button_whats from '../../components/Button_whats/Button_whats'
 
 const Fachadas = () => {
 
-    if (typeof window.gtag === 'function') {
-        // Ejecuta el evento de conversión
-        window.gtag('event', 'conversion', {
-          'send_to': 'AW-16614584501/OdjECOH3gLwZELXhufI9',
-          'value': 1.0,
-          'currency': 'COP'
-        });
-    }
-
     useEffect(() => {
-        // Crear el script para Google Tag Manager
+        // Cargar el script de Google Tag Manager
         const script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
         script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
         document.head.appendChild(script);
-    
-        // Definir la función gtag y configurarla
+
+        // Inicializar el gtag
         window.dataLayer = window.dataLayer || [];
         function gtag() {
-          window.dataLayer.push(arguments);
+            window.dataLayer.push(arguments);
         }
         gtag('js', new Date());
         gtag('config', 'AW-16614584501');
+    });
+
+    useEffect(() => {
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'conversion', {
+                send_to: 'AW-16614584501/iPiLCOLzgbwZELXhufI9',
+                value: 1.0,
+                currency: 'COP'
+            });
+        }
+    });
+
+    useEffect(() => {
+        // Crear el script AMP
+        const script = document.createElement('script');
+        script.async = true;
+        script.setAttribute('custom-element', 'amp-analytics');
+        script.src = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
+        document.head.appendChild(script);
+    });
+
+    useEffect(() => {
+        // Cargar el script de Google Tag Manager (GTM)
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
+        document.head.appendChild(script);
+
+        // Inicializar gtag con la configuración proporcionada en el JSON del amp-analytics
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        // Configurar el ID de Google Ads con el grupo 'default'
+        gtag('config', 'AW-16614584501', {
+            groups: 'default'
+        });
+    });
+
+    useEffect(() => {
+        // Función para disparar la conversión
+        const triggerConversion = () => {
+            if (typeof window.gtag === 'function') {
+                window.gtag('event', 'conversion', {
+                    value: 1.0,
+                    currency: 'COP',
+                    send_to: 'AW-16614584501/iPiLCOLzgbwZELXhufI9'
+                });
+            }
+        };
+
+        // Disparar la conversión cuando el componente sea visible (al montar)
+        triggerConversion();
     });
 
     const [url, setUrl] = useState("");
@@ -91,7 +138,7 @@ const Fachadas = () => {
         title: "Fachadas",
         text: "¡Eleva la imagen de tu edificio con nuestro servicio de Mantenimiento de Fachadas y cubiertas! Quieres que tu edificio brille con todo su esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está aquí para hacerlo posible. Con un enfoque en la excelencia y la atención al detalle, dejaremos tus fachadas y cubiertas impecables, resaltando la belleza arquitectónica y asegurando una impresión duradera.",
         image: imgPrincipal,
-        slider: [imgPrincipal, img_51, img_52, img_53, term, img_63, img_1601, img_1602, img_1603,  img_3, img_18, fondo_section2, img_4, img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, img_73]
+        slider: [imgPrincipal, img_51, img_52, img_53, term, img_63, img_1601, img_1602, img_1603, img_3, img_18, fondo_section2, img_4, img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, img_73]
     });
 
     return (
