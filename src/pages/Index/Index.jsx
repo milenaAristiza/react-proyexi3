@@ -116,7 +116,7 @@ function Home() {
         </div>
         <div className='sub_servicios'>
         <div className='sub_servicios_1'>
-            <div className='sub_servicios_1_title'>
+            <div className='sub_servicios_1_title responsive2'>
               <h3>IMPERMEABILIZACIÓN DE CUBIERTAS</h3>
               <Link to='/impermeabilizacion'>
                 <button className="button_ver_mas">
@@ -126,6 +126,14 @@ function Home() {
             </div>
             <div>
               <img className="img_cards" src={img12} alt="imagen principal de la sección de obras civiles" />
+            </div>
+            <div className='sub_servicios_1_title responsive1'>
+              <h3>IMPERMEABILIZACIÓN DE CUBIERTAS</h3>
+              <Link to='/impermeabilizacion'>
+                <button className="button_ver_mas">
+                  VER MÁS
+                </button>
+              </Link>
             </div>
           </div>
           <div className='sub_servicios_1'>
