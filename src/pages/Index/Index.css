@@ -90,11 +90,37 @@ h1 {
 .servicios1 {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 3vh;
     /* background-image: url(./fondo_servicios.jpg); */
     background-size: cover;
+}
+
+.sub_servicios {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.sub_servicios_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 5vh;
+}
+
+.sub_servicios_1_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    gap: 3vh;
 }
 
 .container__servicios,
@@ -137,7 +163,8 @@ h1 {
 }
 
 .container__servicios>*>h3,
-.container__servicios_mobile>*>h3 {
+.container__servicios_mobile>*>h3,
+.sub_servicios_1_title>h3 {
     /* font-size: 1rem; */
     font-weight: 700;
     margin: 0;

@@ -130,6 +130,10 @@ header label {
   margin-left: 2vw;
 }
 
+.logo:hover {
+  filter: none;
+}
+
 .content_nav {
   width: 50vw;
   display: flex;

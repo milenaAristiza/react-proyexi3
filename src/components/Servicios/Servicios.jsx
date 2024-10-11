@@ -29,28 +29,28 @@ function Servicios({ args }) {
         script.setAttribute('custom-element', 'amp-analytics');
         script.src = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
         document.head.appendChild(script);
-      });
+    });
 
-      useEffect(() => {
+    useEffect(() => {
         // Cargar el script de Google Tag Manager (GTM)
         const script = document.createElement('script');
         script.async = true;
         script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
         document.head.appendChild(script);
-    
+
         // Inicializar gtag con la configuración proporcionada en el JSON del amp-analytics
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
             window.dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-      
-          // Configurar el ID de Google Ads con el grupo 'default'
-          gtag('config', 'AW-16614584501', {
+        }
+        gtag('js', new Date());
+
+        // Configurar el ID de Google Ads con el grupo 'default'
+        gtag('config', 'AW-16614584501', {
             groups: 'default'
-          });
         });
+    });
 
     const [params, setParams] = useState(args);
 
@@ -65,13 +65,13 @@ function Servicios({ args }) {
                         </p>
                         <p>¡Echa un vistazo a nuestro portafolio!</p>
 
-                        <div className="container_button_portafolio">
-                            {/* <a href="./img/Portafolio PROYEXI.pdf" download="Portafolio" className="button_portafolio"> */}
-                            <button>
-                                <p>Portafolio</p>
-                            </button>
-                            {/* </a> */}
-                        </div>
+                        {/* <div className="container_button_portafolio">
+                            <a href="./img/Portafolio PROYEXI.pdf" download="Portafolio" className="button_portafolio"> 
+                                <button>
+                                    <p>Portafolio</p>
+                                </button>
+                            </a>
+                        </div> */}
                     </div>
                     <div className='image_principal_facahadas'>
                         <div className="container_slider_fachadas">

@@ -20,21 +20,22 @@ const Nav = ({ str }) => {
                 <i className="fa fa-whatsapp icono"></i>
             </Link>
             <header>
-                <img className="logo" src={logoBlanco} alt="Logo Blanco proyexi" />
+                <Link to='/'><img className="logo" src={logoBlanco} alt="Logo Blanco proyexi" /></Link>
                 <input type="checkbox" id="menu-bar" />
                 <label htmlFor="menu-bar">
                     <img className='img_menu_h' src={menuHamburguesa} alt="Menú desplegable" />
-                    </label>
+                </label>
                 <nav className="navbar">
                     <ul>
                         <li className={typeof location === "undefined" ? "indicator" : ""}><Link to='/'>Inicio</Link></li>
                         <li className={location === "proyectos" ? "indicator" : ""}><Link to='/proyectos'>Proyectos</Link></li>
-                        <li className={location === "fachadas" || location === "remodelacion_comercial" || location === "remodelacion_residencial" || location === "obras_civiles" ? "indicator" : ""}>
-                            <Link to='' className="services">Servicios 
-                            <img className="flechaAbajo" src={flechaAbajo} alt="Flecha Abajo" />
+                        <li className={location === "fachadas" || location === "impermeabilizacion" || location === "remodelacion_comercial" || location === "remodelacion_residencial" || location === "obras_civiles" ? "indicator" : ""}>
+                            <Link to='' className="services">Servicios
+                                <img className="flechaAbajo" src={flechaAbajo} alt="Flecha Abajo" />
                             </Link>
                             <ul>
                                 <li><Link to='/fachadas'>Fachadas</Link></li>
+                                <li><Link to='/impermeabilizacion'>Impermeabilizacion</Link></li>
                                 <li><Link to='/remodelacion_comercial'>Remodelación comercial</Link></li>
                                 <li><Link to='/remodelacion_residencial'>Remodelación residencial</Link></li>
                                 <li><Link to='/obras_civiles'>Obras civiles</Link></li>
@@ -43,7 +44,7 @@ const Nav = ({ str }) => {
                         <li className={location === "quienes_somos" ? "indicator" : ""}><Link to='/quienes_somos'>Quienes somos</Link></li>
                         <li><a href="#footer" className="button">
                             <button className="button_nav">Contacto</button>
-                    </a></li>
+                        </a></li>
                     </ul>
                 </nav>
             </header>
