@@ -23,7 +23,7 @@ const Footer = () => {
                     {/* <p>6615971</p> */}
 
                     <h2>Correo</h2>
-                    <p>administraciondc@proyexidisenoyconstruccion.com</p>
+                    {/* <p>administraciondc@proyexidisenoyconstruccion.com</p> */}
                     <p>proyexidc@gmail.com</p>
                 </div>
                 <div className="box">
