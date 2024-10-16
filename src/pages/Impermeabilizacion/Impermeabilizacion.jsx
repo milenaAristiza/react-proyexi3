@@ -109,7 +109,7 @@ const Impermeabilizacion = () => {
     }, []);
 
     const [args, setArgs] = useState({
-        title: "Impermeabilizacion",
+        title: "Impermeabilizacion de cubiertas",
         text: "¡En nuestra empresa, somos expertos en impermeabilización de cubiertas, brindando soluciones duraderas y de alta calidad. Al proteger tu techo contra la filtración de agua, garantizamos la preservación de la estructura y evitamos problemas costosos como goteras, humedad o daños a largo plazo. Nuestra experiencia y compromiso con la excelencia nos posicionan como la mejor opción para asegurar la integridad de tus cubiertas, mejorando la eficiencia energética y aumentando el valor de tu propiedad.",
         image: imgPrincipal,
         slider: [img10, img12, img11, img2, img1, img5, img6, img7, img8, img9, img13, img14, img15, img16, img17, img18, img19]

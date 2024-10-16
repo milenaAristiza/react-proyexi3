@@ -35,7 +35,7 @@ const Nav = ({ str }) => {
                             </Link>
                             <ul>
                                 <li><Link to='/fachadas'>Fachadas</Link></li>
-                                <li><Link to='/impermeabilizacion'>Impermeabilizacion</Link></li>
+                                <li><Link to='/impermeabilizacion'>Impermeabilizacion de cubiertas</Link></li>
                                 <li><Link to='/remodelacion_comercial'>Remodelación comercial</Link></li>
                                 <li><Link to='/remodelacion_residencial'>Remodelación residencial</Link></li>
                                 <li><Link to='/obras_civiles'>Obras civiles</Link></li>
