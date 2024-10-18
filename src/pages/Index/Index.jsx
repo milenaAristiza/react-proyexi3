@@ -97,8 +97,8 @@ function Home() {
           </div>
           <div>
             <img className="img_cards" src={remodelacionR} alt="imagen principal de la sección remodelación residencial" />
-            <h3>REMODELACION DE ESPACIOS</h3>
-            <Link to='/remodelacion_comercial'>
+            <h3>REMODELACION RESIDENCIAL</h3>
+            <Link to='/remodelacion_residencial'>
               <button className="button_ver_mas">
                 VER MÁS
               </button>
