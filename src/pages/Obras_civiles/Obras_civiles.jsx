@@ -80,7 +80,7 @@ const ObrasCiviles = () => {
         title: "Obras civiles",
         text: "¡Descubre la magia de construir tus sueños! ¿Quieres convertir tus ideas en realidad? En nuestro servicio de construcción, hacemos posible lo imposible. Deja que nuestros expertos arquitectos y constructores den vida a tus proyectos, con un toque de innovación y calidad que te sorprenderá. Edificios - Bodegas - Casas y mas.",
         image: img5,
-        slider: [img10j, img1j, img2j, img3j, img4j, img5j, img6j, img7j, img8j, img9j, img11j, img12j, img_8j2, img_9j2]
+        slider: [img10j, img1j, img2j, img3j, img5j, img6j, img7j, img12j, img_8j2, img_9j2]
     });
 
     return (
