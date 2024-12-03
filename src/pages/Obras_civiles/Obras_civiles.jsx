@@ -19,6 +19,19 @@ import img11j from '../../assets/images/obras_civiles/11.jpeg';
 import img12j from '../../assets/images/obras_civiles/12.jpeg';
 import img_8j2 from '../../assets/images/remodelacion_comercial/7.jpeg'
 import img_9j2 from '../../assets/images/remodelacion_comercial/8.jpeg'
+import imgop_1 from '../../assets/images/obras_civiles/img_op/1.jpeg'
+import imgop_2 from '../../assets/images/obras_civiles/img_op/2.jpeg'
+import imgop_3 from '../../assets/images/obras_civiles/img_op/3.jpeg'
+import imgop_4 from '../../assets/images/obras_civiles/img_op/4.jpeg'
+import imgop_5 from '../../assets/images/obras_civiles/img_op/5.jpeg'
+import imgop_6 from '../../assets/images/obras_civiles/img_op/6.jpeg'
+import imgop_7 from '../../assets/images/obras_civiles/img_op/7.jpeg'
+import imgop_8 from '../../assets/images/obras_civiles/img_op/8.jpeg'
+import imgop_9 from '../../assets/images/obras_civiles/img_op/9.jpeg'
+import imgop_10 from '../../assets/images/obras_civiles/img_op/10.jpeg'
+import imgop_11 from '../../assets/images/obras_civiles/img_op/11.jpeg'
+import imgop_12 from '../../assets/images/obras_civiles/img_op/12.jpeg'
+import imgop_13 from '../../assets/images/obras_civiles/img_op/13.jpeg'
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
 import Button_whats from '../../components/Button_whats/Button_whats'
@@ -80,7 +93,7 @@ const ObrasCiviles = () => {
         title: "Obras civiles",
         text: "¡Descubre la magia de construir tus sueños! ¿Quieres convertir tus ideas en realidad? En nuestro servicio de construcción, hacemos posible lo imposible. Deja que nuestros expertos arquitectos y constructores den vida a tus proyectos, con un toque de innovación y calidad que te sorprenderá. Edificios - Bodegas - Casas y mas.",
         image: img5,
-        slider: [img10j, img1j, img2j, img3j, img5j, img6j, img7j, img12j, img_8j2, img_9j2]
+        slider: [img10j, img1j, img2j, img3j, img5j, img6j, img7j, img12j, img_8j2, img_9j2, imgop_1, imgop_2, imgop_4, imgop_5, imgop_6, imgop_7, imgop_8, imgop_9, imgop_10, imgop_11, imgop_12, imgop_13]
     });
 
     return (
