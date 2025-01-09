@@ -136,7 +136,7 @@ const Fachadas = () => {
 
     const [args, setArgs] = useState({
         title: "Fachadas",
-        text: "¡Eleva la imagen de tu edificio con nuestro servicio de Mantenimiento de Fachadas y cubiertas! Quieres que tu edificio brille con todo su esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está aquí para hacerlo posible. Con un enfoque en la excelencia y la atención al detalle, dejaremos tus fachadas y cubiertas impecables, resaltando la belleza arquitectónica y asegurando una impresión duradera.",
+        text: "Realza la Imagen de tu Edificio con Nuestro Servicio de Mantenimiento de Fachadas y Cubiertas ¿Quieres que tu edificio destaque y luzca en su máximo esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está listo para hacerlo realidad. Nos enfocamos en la excelencia y la atención meticulosa a cada detalle, garantizando resultados impecables que realzan la belleza arquitectónica de tu propiedad y generan una impresión duradera. Confía en nosotros para llevar la imagen de tu edificio al siguiente nivel.",
         image: imgPrincipal,
         slider: [imgPrincipal, img_51, img_52, img_53, term, img_63, img_1601, img_1602, img_1603, img_3, img_18, fondo_section2, img_4, img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, img_73]
     });

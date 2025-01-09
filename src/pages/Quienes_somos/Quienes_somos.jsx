@@ -30,28 +30,28 @@ const QuienesSomos = () => {
         script.setAttribute('custom-element', 'amp-analytics');
         script.src = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
         document.head.appendChild(script);
-      });
+    });
 
-      useEffect(() => {
+    useEffect(() => {
         // Cargar el script de Google Tag Manager (GTM)
         const script = document.createElement('script');
         script.async = true;
         script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16614584501';
         document.head.appendChild(script);
-    
+
         // Inicializar gtag con la configuración proporcionada en el JSON del amp-analytics
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
             window.dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-      
-          // Configurar el ID de Google Ads con el grupo 'default'
-          gtag('config', 'AW-16614584501', {
+        }
+        gtag('js', new Date());
+
+        // Configurar el ID de Google Ads con el grupo 'default'
+        gtag('config', 'AW-16614584501', {
             groups: 'default'
-          });
         });
+    });
 
     const [url, setUrl] = useState("");
 
@@ -70,11 +70,24 @@ const QuienesSomos = () => {
                 <div className="div2_section2_quienes_comos">
                     <h2 className="title_quienesS">¿POR QUÉ ELEGIRNOS?</h2>
                     <p>
-                        Nuestros servicios incluyen:
-                        Construcción residencial: Desde hogares acogedores hasta mansiones de lujo, hacemos de cada casa un verdadero hogar.
-                        Construcción comercial: Potencia tu negocio con espacios funcionales y atractivos que cautivarán a tus clientes.
-                        Remodelaciones: Renovamos y transformamos cualquier espacio para que se ajuste a tus necesidades cambiantes.
-                        Diseño arquitectónico: Nuestros expertos dan forma a tus ideas, creando planos precisos y estéticamente impresionantes.
+                        Ofrecemos soluciones integrales que 
+                        combinan innovación, calidad y atención personalizada. Nuestro equipo de 
+                        profesionales trabaja con pasión y dedicación para materializar tus ideas, 
+                        asegurando resultados que destacan.
+                        <br></br>
+                        - Construcción Residencial: Creamos hogares funcionales, cómodos y con estilo.
+                        <br></br>
+                        - Construcción Comercial: Diseñamos espacios modernos y funcionales que impulsan el éxito de tu negocio y cautivan a tus clientes.
+                        <br></br>
+                        - Remodelaciones: Transformamos y adaptamos tus espacios para satisfacer nuevas necesidades y mejorar tu calidad de vida.
+                        <br></br>
+                        - Mantenimiento de Fachadas: Preservamos y renovamos la apariencia de tus fachadas, garantizando su estética, funcionalidad y protección contra el desgaste.
+                        <br></br>
+                        - Impermeabilización y Mantenimiento de Cubiertas: Protegemos tus espacios de filtraciones y humedad con soluciones duraderas que aseguran la integridad estructural y prolongan la vida útil de tus cubiertas.
+                        <br></br>
+                        Eligenos y conviértete en parte de nuestra 
+                        historia de éxito, donde cada proyecto es una oportunidad para transformar 
+                        sueños en realidades. ¡Contáctanos hoy!
                     </p>
                     {/* <a href="#footer">
                         <div className="container__button2">

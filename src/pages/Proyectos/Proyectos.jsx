@@ -91,11 +91,17 @@ const Proyectos = () => {
         <div className="container_text_proyectos">
           <h2>Te mostramos algunos de nuestros proyectos</h2>
           <p>
-            PROYEXI DISEÑO Y CONSTRUCCIÓN SAS está listo para ayudarte con todas las
+          En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., estamos comprometidos con brindar 
+          soluciones innovadoras y de alta calidad para cada proyecto. Como líderes 
+          en la industria, ofrecemos una amplia gama de servicios profesionales, 
+          adaptándonos a las necesidades de nuestros clientes tanto locales como regionales. 
+          Nuestra experiencia y dedicación garantizan resultados confiables y excepcionales. 
+          A continuación, te presentamos una muestra de nuestros proyectos más destacados.
+            {/* PROYEXI DISEÑO Y CONSTRUCCIÓN SAS está listo para ayudarte con todas las
             necesidades de su proyecto. Estamos a la vanguardia de la industria, ya
             que siempre ofrecemos una amplia variedad de servicios profesionales a
             clientes cercanos y lejanos. Garantizamos la fiabilidad y calidad de nuestro
-            trabajo. En las imágenes te presentamos algunos de nuestros proyectos.
+            trabajo. En las imágenes te presentamos algunos de nuestros proyectos. */}
           </p>
           <div className="container_button_portafolio">
             {/* <a href="./img/Portafolio PROYEXI.pdf" download="Portafolio" className="button_portafolio">

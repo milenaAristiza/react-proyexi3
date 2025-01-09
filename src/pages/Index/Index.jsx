@@ -75,9 +75,12 @@ function Home() {
             <div className="content__curva__azul">
               <h1 className="title">Proyexi diseño y construcción s.a.s</h1>
               <p className="text">
-                Todo lo que necesitas para ejecutar tu proyecto de
+                Tu Proyecto de Construcción Comienza Aquí: Asesoría y Soluciones
+                 en un Solo Lugar
+                 "Construimos Tus Ideas, Transformamos Tu Espacio"
+                {/* Todo lo que necesitas para ejecutar tu proyecto de
                 construcción en un solo lugar, y lo encuentras aquí, llámanos
-                para asesorarte sin costo. Haz clic en el botón de abajo.
+                para asesorarte sin costo. */}
               </p>
             </div>
           </div>

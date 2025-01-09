@@ -91,7 +91,7 @@ const RemodelacionResidencial = () => {
 
     const [args, setArgs] = useState({
         title: "Remodelacion residencial",
-        text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN SAS, garantizamos la excelencia de nuestro trabajo y proporcionamos a los clientes una atención personalizada según sus necesidades específicas. Contáctenos hoy para comenzar la transformación de su espacio comercial. Juntos, podemos crear un ambiente que no solo refleje la esencia de su marca, sino que también impulse su éxito comercial.",
+        text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., garantizamos la excelencia en cada detalle de nuestros proyectos y ofrecemos un servicio personalizado para atender las necesidades específicas de cada hogar. Contáctenos hoy y dé el primer paso hacia la renovación de su espacio residencial. Juntos crearemos un entorno que combine funcionalidad, estilo y confort, reflejando su personalidad y elevando su calidad de vida.",
         image: img11,
         slider: [img5j, img12j, img1j, img2j, img3j, img4j, img6j, img7j, img8j, img9j, img10j, img11j, img13j, img15j, img16j, img17j, img18j, img19j, img20j, img21j, img22j, img23j, img24j, img25j, img26j, img27j]
     });
