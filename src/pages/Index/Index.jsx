@@ -8,7 +8,9 @@ import fondoCards from '../../assets/images/fachadas/3.jpeg';
 import img12 from '../../assets/images/impermeabilizacion/12.jpeg';
 import img_principal from '../../assets/images/remodelacion_comercial/img_principal.jpeg';
 import Footer from '../../components/Footer/Footer';
-import Button_whats from '../../components/Button_whats/Button_whats'
+import Button_whats from '../../components/Button_whats/Button_whats';
+import TagManager from 'react-gtm-module';
+
 // import React, { useRef } from 'react';
 
 function Home() {
