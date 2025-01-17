@@ -32,6 +32,13 @@ import imgop_10 from '../../assets/images/obras_civiles/img_op/10.jpeg'
 import imgop_11 from '../../assets/images/obras_civiles/img_op/11.jpeg'
 import imgop_12 from '../../assets/images/obras_civiles/img_op/12.jpeg'
 import imgop_13 from '../../assets/images/obras_civiles/img_op/13.jpeg'
+import imgop_20 from '../../assets/images/obras_civiles/20.jpeg'
+import imgop_21 from '../../assets/images/obras_civiles/21.jpeg'
+import imgop_22 from '../../assets/images/obras_civiles/22.jpeg'
+import imgop_23 from '../../assets/images/obras_civiles/23.jpeg'
+import imgop_24 from '../../assets/images/obras_civiles/24.jpeg'
+import imgop_25 from '../../assets/images/obras_civiles/25.jpeg'
+import imgop_26 from '../../assets/images/obras_civiles/26.jpeg'
 import './Obras_civiles.css';
 import Servicios from '../../components/Servicios/Servicios';
 import Button_whats from '../../components/Button_whats/Button_whats'
@@ -93,7 +100,7 @@ const ObrasCiviles = () => {
         title: "Obras civiles",
         text: "¡Descubre la magia de construir tus sueños! ¿Quieres convertir tus ideas en realidad? En nuestro servicio de construcción, hacemos posible lo imposible. Deja que nuestros expertos arquitectos y constructores den vida a tus proyectos, con un toque de innovación y calidad que te sorprenderá. Edificios - Bodegas - Casas y mas.",
         image: img5,
-        slider: [img10j, img1j, img2j, img3j, img5j, img6j, img7j, img12j, img_8j2, img_9j2, imgop_1, imgop_2, imgop_4, imgop_5, imgop_6, imgop_7, imgop_8, imgop_9, imgop_10, imgop_11, imgop_12, imgop_13]
+        slider: [img10j, img1j, img2j, img3j, img5j, img6j, img7j, img12j, img_8j2, img_9j2, imgop_1, imgop_2, imgop_4, imgop_5, imgop_6, imgop_7, imgop_8, imgop_9, imgop_10, imgop_11, imgop_12, imgop_13, imgop_20, imgop_21, imgop_22, imgop_23, imgop_24, imgop_25, imgop_26]
     });
 
     return (
