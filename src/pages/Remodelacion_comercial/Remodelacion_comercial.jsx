@@ -9,6 +9,36 @@ import img_4j from '../../assets/images/remodelacion_comercial/2.jpeg'
 import img_5j from '../../assets/images/remodelacion_comercial/9.jpeg'
 import img_10j from '../../assets/images/remodelacion_comercial/7.jpg'
 import img_11j from '../../assets/images/remodelacion_comercial/8.jpg'
+
+/******************************/
+import img11r from '../../assets/images/remodelacion_residencial/11.png';
+import img1r from '../../assets/images/remodelacion_residencial/1.jpeg';
+import img2r from '../../assets/images/remodelacion_residencial/1.png';
+import img3r from '../../assets/images/remodelacion_residencial/2.jpeg';
+import img4r from '../../assets/images/remodelacion_residencial/2.png';
+import img5r from '../../assets/images/remodelacion_residencial/3.jpeg';
+import img6r from '../../assets/images/remodelacion_residencial/3.png';
+import img7r from '../../assets/images/remodelacion_residencial/4.jpeg';
+import img8r from '../../assets/images/remodelacion_residencial/4.png';
+import img9r from '../../assets/images/remodelacion_residencial/5.jpeg';
+import img10r from '../../assets/images/remodelacion_residencial/5.png';
+import img11re from '../../assets/images/remodelacion_residencial/6.jpeg';
+import img12r from '../../assets/images/remodelacion_residencial/6.png';
+import img13r from '../../assets/images/remodelacion_residencial/7.jpeg';
+import img15r from '../../assets/images/remodelacion_residencial/8.png';
+import img16r from '../../assets/images/remodelacion_residencial/8.jpeg';
+import img17r from '../../assets/images/remodelacion_residencial/9.png';
+import img18r from '../../assets/images/remodelacion_residencial/9.jpeg';
+import img19r from '../../assets/images/remodelacion_residencial/10.png';
+import img20r from '../../assets/images/remodelacion_residencial/11.png';
+import img21r from '../../assets/images/remodelacion_residencial/12.png';
+import img22r from '../../assets/images/remodelacion_residencial/13.png';
+import img23r from '../../assets/images/remodelacion_residencial/14.png';
+import img24r from '../../assets/images/remodelacion_residencial/15.png';
+import img25r from '../../assets/images/remodelacion_residencial/16.png';
+import img26r from '../../assets/images/remodelacion_residencial/17.png';
+import img27r from '../../assets/images/remodelacion_residencial/18.png';
+/******************************/
 import './Remodelacion_comercial.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -70,10 +100,10 @@ function Remodelacion_comercial() {
     }, []);
 
     const [args, setArgs] = useState({
-        title: "Remodelacion comercial",
-        text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN SAS, garantizamos la excelencia de nuestro trabajo y proporcionamos a los clientes una atención personalizada según sus necesidades específicas. Contáctenos hoy para comenzar la transformación de su espacio comercial. Juntos, podemos crear un ambiente que no solo refleje la esencia de su marca, sino que también impulse su éxito comercial.",
+        title: "Remodelacion comercial y residencial",
+        text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., garantizamos la excelencia en cada detalle de nuestros proyectos, brindando un servicio personalizado para atender las necesidades específicas de cada cliente. Ya sea en su hogar o en su negocio, estamos comprometidos con la transformación de sus espacios, combinando funcionalidad, estilo y confort. Contáctenos hoy y dé el primer paso hacia la renovación de su espacio residencial o comercial. Juntos, crearemos un entorno que refleje su personalidad o la esencia de su marca, elevando su calidad de vida e impulsando su éxito.",
         image: imgrecort,
-        slider: [imgrecort, img_1j, img_2j, img_3j, img_4j, img_5j, img_10j, img_11j]
+        slider: [imgrecort, img5r, img_1j, img12r, img_2j, img1r, img_3j, img2r, img_4j, img3r, img4r, img_5j, img6r, img_10j, img7r, img_11j, img8r, img9r, img10r, img11re, img13r, img15r, img16r, img17r, img18r, img19r, img20r, img21r, img22r, img23r, img24r, img25r, img26r, img27r]
     });
 
     return (
