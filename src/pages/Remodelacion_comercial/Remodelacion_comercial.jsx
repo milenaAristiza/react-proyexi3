@@ -29,6 +29,10 @@ import img15r from '../../assets/images/remodelacion_residencial/8.png';
 import img16r from '../../assets/images/remodelacion_residencial/8.jpeg';
 import img17r from '../../assets/images/remodelacion_residencial/9.png';
 import img18r from '../../assets/images/remodelacion_residencial/9.jpeg';
+import img20mr from '../../assets/images/remodelacion_residencial/20imr.jpeg';
+import img21mr from '../../assets/images/remodelacion_residencial/21mr.jpeg';
+import img22mr from '../../assets/images/remodelacion_residencial/22mr.jpeg';
+import img23mr from '../../assets/images/remodelacion_residencial/23mr.jpeg';
 import img19r from '../../assets/images/remodelacion_residencial/10.png';
 import img20r from '../../assets/images/remodelacion_residencial/11.png';
 import img21r from '../../assets/images/remodelacion_residencial/12.png';
@@ -38,6 +42,8 @@ import img24r from '../../assets/images/remodelacion_residencial/15.png';
 import img25r from '../../assets/images/remodelacion_residencial/16.png';
 import img26r from '../../assets/images/remodelacion_residencial/17.png';
 import img27r from '../../assets/images/remodelacion_residencial/18.png';
+import img28r from '../../assets/images/remodelacion_residencial/imgfn.png';
+import img29r from '../../assets/images/remodelacion_residencial/imgfb.png';
 /******************************/
 import './Remodelacion_comercial.css';
 import 'swiper/css';
@@ -103,7 +109,7 @@ function Remodelacion_comercial() {
         title: "Remodelacion comercial y residencial",
         text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., garantizamos la excelencia en cada detalle de nuestros proyectos, brindando un servicio personalizado para atender las necesidades específicas de cada cliente. Ya sea en su hogar o en su negocio, estamos comprometidos con la transformación de sus espacios, combinando funcionalidad, estilo y confort. Contáctenos hoy y dé el primer paso hacia la renovación de su espacio residencial o comercial. Juntos, crearemos un entorno que refleje su personalidad o la esencia de su marca, elevando su calidad de vida e impulsando su éxito.",
         image: imgrecort,
-        slider: [img_4j, imgrecort, img5r, img_1j, img12r, img_2j, img1r, img_3j, img2r, img_5j, img_10j, img7r, img_11j, img9r, img10r, img11re, img13r, img15r, img16r, img17r, img18r, img19r, img20r, img21r, img22r, img23r, img24r, img25r, img26r, img27r]
+        slider: [img_4j, img29r, img_5j, imgrecort, img20mr, img21mr, img5r, img_2j, img_1j, img_3j, img12r, img1r, img2r, img_10j, img7r, img17r, img_11j, img10r, img11re, img15r, img16r, img18r, img19r, img20r, img21r, img22r, img23r, img24r, img25r,img27r]
     });
 
     return (
