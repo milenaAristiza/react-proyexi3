@@ -29,11 +29,6 @@ import img15r from '../../assets/images/remodelacion_residencial/8.png';
 import img16r from '../../assets/images/remodelacion_residencial/8.jpeg';
 import img17r from '../../assets/images/remodelacion_residencial/9.png';
 import img18r from '../../assets/images/remodelacion_residencial/9.jpeg';
-import img20mr from '../../assets/images/remodelacion_residencial/20imr.jpeg';
-import img21mr from '../../assets/images/remodelacion_residencial/21mr.jpeg';
-import img22mr from '../../assets/images/remodelacion_residencial/22mr.jpeg';
-import img23mr from '../../assets/images/remodelacion_residencial/23mr.jpeg';
-import img24mr from '../../assets/images/remodelacion_residencial/24mr.jpeg';
 import img19r from '../../assets/images/remodelacion_residencial/10.png';
 import img20r from '../../assets/images/remodelacion_residencial/11.png';
 import img21r from '../../assets/images/remodelacion_residencial/12.png';
@@ -45,6 +40,13 @@ import img26r from '../../assets/images/remodelacion_residencial/17.png';
 import img27r from '../../assets/images/remodelacion_residencial/18.png';
 import img28r from '../../assets/images/remodelacion_residencial/imgfn.png';
 import img29r from '../../assets/images/remodelacion_residencial/imgfb.png';
+import img20mr from '../../assets/images/remodelacion_residencial/20imr.jpeg';
+import img21mr from '../../assets/images/remodelacion_residencial/21mr.jpeg';
+import img22mr from '../../assets/images/remodelacion_residencial/22mr.jpeg';
+import img23mr from '../../assets/images/remodelacion_residencial/23mr.jpeg';
+import img24mr from '../../assets/images/remodelacion_residencial/24mr.jpeg';
+import img25mr from '../../assets/images/remodelacion_residencial/25mr.jpeg';
+import img26mr from '../../assets/images/remodelacion_residencial/26mr.jpeg';
 /******************************/
 import './Remodelacion_comercial.css';
 import 'swiper/css';
@@ -110,7 +112,7 @@ function Remodelacion_comercial() {
         title: "Remodelacion comercial y residencial",
         text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., garantizamos la excelencia en cada detalle de nuestros proyectos, brindando un servicio personalizado para atender las necesidades específicas de cada cliente. Ya sea en su hogar o en su negocio, estamos comprometidos con la transformación de sus espacios, combinando funcionalidad, estilo y confort. Contáctenos hoy y dé el primer paso hacia la renovación de su espacio residencial o comercial. Juntos, crearemos un entorno que refleje su personalidad o la esencia de su marca, elevando su calidad de vida e impulsando su éxito.",
         image: imgrecort,
-        slider: [img_4j, img29r, img23mr, img_5j, img24mr, imgrecort, img20mr, img21mr, img16r, img5r, img_2j, img_1j, img_3j, img12r, img15r, img1r, img2r, img_10j, img_11j, img7r, img17r, img10r, img11re, img18r,  img27r, img20r, img19r, img21r, img22r, img24r, img25r]
+        slider: [img_4j, img29r, img23mr, img_5j, img24mr, imgrecort, img20mr, img25mr, img26mr, img21mr, img16r, img5r, img_2j, img_1j, img_3j, img12r, img15r, img1r, img2r, img_10j, img_11j, img7r, img17r, img10r, img11re, img18r,  img27r, img20r, img19r, img21r, img22r, img24r, img25r]
     });
 
     return (
