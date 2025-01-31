@@ -412,11 +412,6 @@ body {
     font-size: 12vw;
   }
 
-  .image_principal_facahadas img {
-    width: 80vw;
-    height: auto;
-  }
-
   .container_slider_fachadas .swiper {
     width: 80vw;
     height: auto;

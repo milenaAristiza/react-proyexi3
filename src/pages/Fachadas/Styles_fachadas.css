@@ -418,13 +418,14 @@ body {
 
   .image_principal_facahadas img {
     width: 80vw;
-    height: auto;
-    margin-bottom: 0;
   }
+
+  .swiper-pagination-fraction {
+    color: transparent!important;
+}
 
   .container_slider_fachadas .swiper {
     width: 80vw;
-    height: auto;
   }
 
   .div1__section2__fachadas {
