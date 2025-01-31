@@ -63,7 +63,7 @@ function Servicios({ args }) {
                         <p className='text__principal__fachadas'>
                             {params.text}
                         </p>
-                        <p>¡Echa un vistazo a nuestro portafolio!</p>
+                        {/* <p>¡Echa un vistazo a nuestro portafolio!</p> */}
 
                         {/* <div className="container_button_portafolio">
                             <a href="./img/Portafolio PROYEXI.pdf" download="Portafolio" className="button_portafolio"> 
