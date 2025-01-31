@@ -120,7 +120,7 @@ function Remodelacion_comercial() {
         title: "Remodelacion comercial y residencial",
         text: "En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., garantizamos la excelencia en cada detalle de nuestros proyectos, brindando un servicio personalizado para atender las necesidades específicas de cada cliente. Ya sea en su hogar o en su negocio, estamos comprometidos con la transformación de sus espacios, combinando funcionalidad, estilo y confort. Contáctenos hoy y dé el primer paso hacia la renovación de su espacio residencial o comercial. Juntos, crearemos un entorno que refleje su personalidad o la esencia de su marca, elevando su calidad de vida e impulsando su éxito.",
         image: imgrecort,
-        slider: [img_4j, img35mr, img29r, img23mr, img_5j, imgrecort, img34mr, img24mr, img32mr, img33mr, img20mr, img25mr, img26mr, img27mr, img28mr, img21mr, img16r, img5r, img_2j, img_1j, img_3j, img29mr, img12r, img15r, img1r, img2r, img_11j, img30mr, img7r, img17r, img10r, img11re, img18r,  img27r, img20r, img19r, img21r, img22r, img24r, img25r]
+        slider: [img_4j, img34mr, img29r, img23mr, img_5j, imgrecort, img35mr, img24mr, img32mr, img33mr, img20mr, img25mr, img26mr, img27mr, img28mr, img21mr, img16r, img5r, img_2j, img_1j, img_3j, img29mr, img12r, img15r, img1r, img2r, img_11j, img30mr, img7r, img17r, img10r, img11re, img18r,  img27r, img20r, img19r, img21r, img22r, img24r, img25r]
     });
 
     return (
