@@ -419,7 +419,7 @@ body {
   .image_principal_facahadas img {
     width: 80vw;
     height: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 0;
   }
 
   .container_slider_fachadas .swiper {
