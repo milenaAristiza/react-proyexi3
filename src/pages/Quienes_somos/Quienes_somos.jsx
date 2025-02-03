@@ -84,10 +84,10 @@ const QuienesSomos = () => {
                         - Mantenimiento de Fachadas: Preservamos y renovamos la apariencia de tus fachadas, garantizando su estética, funcionalidad y protección contra el desgaste.
                         <br></br>
                         - Impermeabilización y Mantenimiento de Cubiertas: Protegemos tus espacios de filtraciones y humedad con soluciones duraderas que aseguran la integridad estructural y prolongan la vida útil de tus cubiertas.
-                        <br></br>
+                        {/* <br></br>
                         Eligenos y conviértete en parte de nuestra 
                         historia de éxito, donde cada proyecto es una oportunidad para transformar 
-                        sueños en realidades. ¡Contáctanos hoy!
+                        sueños en realidades. ¡Contáctanos hoy! */}
                     </p>
                     {/* <a href="#footer">
                         <div className="container__button2">

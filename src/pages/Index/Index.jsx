@@ -100,7 +100,7 @@ function Home() {
               </button>
             </Link>
           </div>
-          <div>
+          {/* <div>
             <img className="img_cards" src={remodelacionR} alt="imagen principal de la sección remodelación residencial" />
             <h3>REMODELACION RESIDENCIAL</h3>
             <Link to='/remodelacion_residencial'>
@@ -108,7 +108,7 @@ function Home() {
                 VER MÁS
               </button>
             </Link>
-          </div>
+          </div> */}
           <div className='sub_servicios_1_title'>
             <img className="img_cards" src={obras} alt="imagen principal de la sección de obras civiles" />
             <h3>CONSTRUCCIÓN DE OBRAS CIVILES</h3>
@@ -146,7 +146,7 @@ function Home() {
               <img className="img_cards" src={img_principal} alt="imagen principal de la sección de obras civiles" />
             </div>
             <div className='sub_servicios_1_title'>
-              <h3>REMODELACIÓN COMERCIAL</h3>
+              <h3>REMODELACIÓN COMERCIAL Y RESIDENCIAL</h3>
               <Link to='/remodelacion_comercial'>
                 <button className="button_ver_mas">
                   VER MÁS
