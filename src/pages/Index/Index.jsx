@@ -9,6 +9,7 @@ import img12 from '../../assets/images/impermeabilizacion/12.jpeg';
 import img_principal from '../../assets/images/remodelacion_comercial/img_principal.jpeg';
 import Footer from '../../components/Footer/Footer';
 import Button_whats from '../../components/Button_whats/Button_whats';
+import img10 from '../../assets/images/impermeabilizacion/10.jpeg';
 import TagManager from 'react-gtm-module';
 
 // import React, { useRef } from 'react';
@@ -130,7 +131,7 @@ function Home() {
               </Link>
             </div>
             <div>
-              <img className="img_cards" src={img12} alt="imagen principal de la sección de obras civiles" />
+              <img className="img_cards" src={img10} alt="imagen principal de la sección de obras civiles" />
             </div>
             <div className='sub_servicios_1_title responsive1'>
               <h3>IMPERMEABILIZACIÓN DE CUBIERTAS</h3>
