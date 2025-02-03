@@ -303,7 +303,7 @@ h1 {
     .container__servicios {
         flex-direction: column;
         align-items: center;
-        height: 200vh;
+        height: 155vh;
     }
 
     .container__servicios {
