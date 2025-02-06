@@ -67,6 +67,34 @@
     font-size: 15px;
   }
 
+  @font-face {
+    font-family: 'MiFuente';
+    src: url('mifuente.woff2') format('woff2'),
+         url('mifuente.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mi-texto {
+    font-family: 'MiFuente', sans-serif;
+}
+
+.mi-texto {
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.mi-texto {
+  font-size: 18px; /* En píxeles */
+}
+
   @media screen and (max-width:800px) {
     header .logo {
       height: 9vh !important;
@@ -158,9 +186,9 @@
       width: 35vw !important;
     }
 
-    .textnone {
-      text-transform: none;
-    }
+    .mi-texto {
+      font-size: 14px;
+  }
   
   }
   

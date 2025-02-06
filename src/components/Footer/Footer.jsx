@@ -24,7 +24,7 @@ const Footer = () => {
 
                     <h2>Correo</h2>
                     {/* <p>administraciondc@proyexidisenoyconstruccion.com</p> */}
-                    <p className='textnone'>proyexidc@gmail.com</p>
+                    <p className='mi-texto'>proyexidc@gmail.com</p>
                 </div>
                 <div className="box">
                     <h2>Síguenos</h2>
