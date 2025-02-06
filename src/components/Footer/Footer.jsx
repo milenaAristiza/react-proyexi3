@@ -1,5 +1,6 @@
 import React from 'react';
 import LOGO_PROYEXI_TRANSPARENTE from './LOGO_PROYEXI_TRANSPARENTE.png';
+import img_correo from './imgcorreo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
@@ -24,7 +25,8 @@ const Footer = () => {
 
                     <h2>Correo</h2>
                     {/* <p>administraciondc@proyexidisenoyconstruccion.com</p> */}
-                    <p className='mi-texto'>proyexidc@gmail.com</p>
+                    {/* <p className='mi-texto'>proyexidc@gmail.com</p> */}
+                    <img className='img_correo' src={img_correo} alt="Logo Proyexi" />
                 </div>
                 <div className="box">
                     <h2>Síguenos</h2>
