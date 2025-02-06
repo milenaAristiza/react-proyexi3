@@ -157,6 +157,10 @@
     .button_portafolio button {
       width: 35vw !important;
     }
+
+    .textnone {
+      text-transform: none;
+    }
   
   }
   
