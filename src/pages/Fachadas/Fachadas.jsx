@@ -46,6 +46,9 @@ import img_65 from '../../assets/images/fachadas/65.jpeg';
 import img_70 from '../../assets/images/fachadas/70.jpeg';
 import img_71 from '../../assets/images/fachadas/71.jpeg';
 import img_73 from '../../assets/images/fachadas/73.jpeg';
+import img_80 from '../../assets/images/fachadas/80.jpeg';
+import img_81 from '../../assets/images/fachadas/81.jpeg';
+import img_82 from '../../assets/images/fachadas/82.jpeg';
 import img_1601 from '../../assets/images/fachadas/1601.jpeg';
 import img_1602 from '../../assets/images/fachadas/1602.jpeg';
 import img_1603 from '../../assets/images/fachadas/1603.jpeg';
@@ -138,7 +141,7 @@ const Fachadas = () => {
         title: "Fachadas",
         text: "Realza la Imagen de tu Edificio con Nuestro Servicio de Mantenimiento de Fachadas y Cubiertas ¿Quieres que tu edificio destaque y luzca en su máximo esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está listo para hacerlo realidad. Nos enfocamos en la excelencia y la atención meticulosa a cada detalle, garantizando resultados impecables que realzan la belleza arquitectónica de tu propiedad y generan una impresión duradera. Confía en nosotros para llevar la imagen de tu edificio al siguiente nivel.",
         image: imgPrincipal,
-        slider: [imgPrincipal, img_51, img_52, img_53, term, img_63, img_1601, img_1602, img_1603, img_3, img_18, fondo_section2, img_4, img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, img_73]
+        slider: [imgPrincipal, img_51, img_52, img_53, img_81, img_82, img_80, term, img_63, img_1601, img_1602, img_1603, img_3, img_18, fondo_section2, img_4, img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, img_73]
     });
 
     return (
