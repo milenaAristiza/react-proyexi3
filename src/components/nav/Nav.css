@@ -49,6 +49,7 @@ header .navbar ul li a {
 .button_nav {
   background-color: #ffffff;
   border-color: #000000;
+  color: #000;
 }
 
 header .navbar ul li .button:hover {
