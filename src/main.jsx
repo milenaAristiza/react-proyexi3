@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
-  gtmId: 'GTM-T7M4P2RQ', // Reemplaza con tu ID de GTM
+  gtmId: 'AW-16614584501, GTM-T7M4P2RQ', // Reemplaza con tu ID de GTM
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
