@@ -7,6 +7,7 @@ import Impermeabilizacion from "../pages/Impermeabilizacion/Impermeabilizacion";
 import Remodelacion_comercial from "../pages/Remodelacion_comercial/Remodelacion_comercial";
 import Remodelacion_residencial from "../pages/Remodelacion_residencial/Remodelacion_residencial";
 import ObrasCiviles from "../pages/Obras_civiles/Obras_civiles";
+import PrivacyPolicy from "../pages/Politica/Politica";
 
 export const AppRouter = () => {
     return (
@@ -20,6 +21,7 @@ export const AppRouter = () => {
             <Route path="/remodelacion_comercial" element={<Remodelacion_comercial />} />
             <Route path="/remodelacion_residencial" element={<Remodelacion_residencial />} />
             <Route path="/obras_civiles" element={<ObrasCiviles />} />
+            <Route path="/politica" element={<PrivacyPolicy />} />
         </Routes>
     )
 }

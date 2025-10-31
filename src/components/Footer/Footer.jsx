@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import './Styles_footer.css';
+import PrivacyPolicy from "../../pages/Politica/Politica";
 
 const Footer = () => {
     return (
@@ -44,7 +45,11 @@ const Footer = () => {
                         <Link to="https://www.youtube.com/channel/UCwwO_LuUHTsqp_L5Kd1NdaQ" target="_blank">
                             <FontAwesomeIcon icon={faYoutube} />
                         </Link>
+                       
                     </div>
+                    <Link to="./politica" target="_blank">
+                        <p className='letPoli'>© 2025 Proyexi Diseño y Construcción S.A.S. | Política de Privacidad</p>
+                        </Link>
                     <h2>Dirección</h2>
                     <p>Bogotá, altos de madelena</p>
                     <p>TV 60 59 24 SUR</p>
