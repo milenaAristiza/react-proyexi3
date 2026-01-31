@@ -66,6 +66,10 @@ import img_16014 from '../../assets/images/fachadas/comp11.jpeg';
 import img_16015 from '../../assets/images/fachadas/comp12.jpeg';
 import img_16016 from '../../assets/images/fachadas/comp13.jpeg';
 import img_16017 from '../../assets/images/fachadas/comp14.jpeg';
+import img_16018 from '../../assets/images/fachadas/nuev.jpeg';
+import img_16019 from '../../assets/images/fachadas/nuev2.jpeg';
+import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
+import img_16021 from '../../assets/images/fachadas/nuev4.jpeg';
 import term from '../../assets/images/fachadas/term.jpeg';
 import './Styles_fachadas.css';
 import Servicios from '../../components/Servicios/Servicios';
@@ -155,11 +159,11 @@ const Fachadas = () => {
         title: "Fachadas",
         text: "Realza la Imagen de tu Edificio con Nuestro Servicio de Mantenimiento de Fachadas y Cubiertas ¿Quieres que tu edificio destaque y luzca en su máximo esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está listo para hacerlo realidad. Nos enfocamos en la excelencia y la atención meticulosa a cada detalle, garantizando resultados impecables que realzan la belleza arquitectónica de tu propiedad y generan una impresión duradera. Confía en nosotros para llevar la imagen de tu edificio al siguiente nivel.",
         image: imgPrincipal,
-        slider: [img_1608, img_1604, img_1605, img_1606, img_1607, img_1609, img_16010,
-            img_16011, img_16012, img_16013, img_16014, img_16015, img_16016, img_16017, 
-            imgPrincipal, img_51, img_52, img_53, img_81, img_82, img_80, term, img_63, 
-            img_1601, img_1602, img_1603, img_3, img_18, fondo_section2, img_4, img_8, img_22, 
-            img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, 
+        slider: [img_1608, img_16013, img_1604, img_1605, img_1606, img_1607, img_1609, img_16010,
+            img_16011, img_16012, img_16015, img_16016, img_16018,
+            img_16020,img_16021,imgPrincipal, img_51, img_52, img_53, img_81, img_82, img_80, 
+            term, img_63, img_1601, img_1602, img_3, img_18, fondo_section2, img_4, 
+            img_8, img_22, img_24, img_25, img_26, img_27, img_28, img_29, img_31, img_32, img_33, img_34, 
             img_35, img_36, img_37, img_38, img_41, img_43, img_44, img_45, img_46, img_47, 
             img_48, img_50, img_58, img_59, img_61, img_62, img_64, img_65, img_70, img_71, 
             img_73]
