@@ -36,9 +36,9 @@ const Nav = ({ str }) => {
                             <ul>
                                 <li><Link to='/fachadas'>Fachadas</Link></li>
                                 <li><Link to='/impermeabilizacion'>Impermeabilizacion de cubiertas</Link></li>
-                                <li><Link to='/remodelacion_comercial'>Remodelación comercial y residencial</Link></li>
-                                {/* <li><Link to='/remodelacion_residencial'>Remodelación residencial</Link></li> */}
-                                <li><Link to='/obras_civiles'>Obras civiles</Link></li>
+                                {/* <li><Link to='/remodelacion_comercial'>Remodelación comercial y residencial</Link></li>
+                                 <li><Link to='/remodelacion_residencial'>Remodelación residencial</Link></li> 
+                                <li><Link to='/obras_civiles'>Obras civiles</Link></li>*/}
                             </ul>
                         </li>
                         <li className={location === "quienes_somos" ? "indicator" : ""}><Link to='/quienes_somos'>Quienes somos</Link></li>

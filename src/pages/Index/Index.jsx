@@ -101,35 +101,8 @@ function Home() {
               </button>
             </Link>
           </div>
-          {/* <div>
-            <img className="img_cards" src={remodelacionR} alt="imagen principal de la sección remodelación residencial" />
-            <h3>REMODELACION RESIDENCIAL</h3>
-            <Link to='/remodelacion_residencial'>
-              <button className="button_ver_mas">
-                VER MÁS
-              </button>
-            </Link>
-          </div> */}
-          <div className='sub_servicios_1_title'>
-            <img className="img_cards" src={obras} alt="imagen principal de la sección de obras civiles" />
-            <h3>CONSTRUCCIÓN DE OBRAS CIVILES</h3>
-            <Link to='/obras_civiles'>
-              <button className="button_ver_mas">
-                VER MÁS
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div className='sub_servicios'>
-        <div className='sub_servicios_1'>
-            <div className='sub_servicios_1_title responsive2'>
-              <h3>IMPERMEABILIZACIÓN DE CUBIERTAS</h3>
-              <Link to='/impermeabilizacion'>
-                <button className="button_ver_mas">
-                  VER MÁS
-                </button>
-              </Link>
-            </div>
+
+          <div className='container__servicios'>
             <div>
               <img className="img_cards" src={img10} alt="imagen principal de la sección de obras civiles" />
             </div>
@@ -141,8 +114,37 @@ function Home() {
                 </button>
               </Link>
             </div>
+            <div className='sub_servicios_1_title responsive2'>
+              <h3>IMPERMEABILIZACIÓN DE CUBIERTAS</h3>
+              <Link to='/impermeabilizacion'>
+                <button className="button_ver_mas">
+                  VER MÁS
+                </button>
+              </Link>
+            </div>
           </div>
-          <div className='sub_servicios_1'>
+          {/* <div>
+            <img className="img_cards" src={remodelacionR} alt="imagen principal de la sección remodelación residencial" />
+            <h3>REMODELACION RESIDENCIAL</h3>
+            <Link to='/remodelacion_residencial'>
+              <button className="button_ver_mas">
+                VER MÁS
+              </button>
+            </Link>
+          </div> */}
+         {/* <div className='sub_servicios_1_title'>
+            <img className="img_cards" src={obras} alt="imagen principal de la sección de obras civiles" />
+            <h3>CONSTRUCCIÓN DE OBRAS CIVILES</h3>
+            <Link to='/obras_civiles'>
+              <button className="button_ver_mas">
+                VER MÁS
+              </button>
+            </Link>
+          </div>*/}
+        </div>
+        <div className='sub_servicios'>
+        
+          {/*<div className='sub_servicios_1'>
             <div>
               <img className="img_cards" src={img_principal} alt="imagen principal de la sección de obras civiles" />
             </div>
@@ -153,8 +155,8 @@ function Home() {
                   VER MÁS
                 </button>
               </Link>
-            </div>
-          </div>
+        </div>
+          </div>*/}
         </div>
       </section>
       <Footer />
