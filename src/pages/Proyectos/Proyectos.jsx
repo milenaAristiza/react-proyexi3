@@ -89,7 +89,7 @@ const Proyectos = () => {
       <Nav str={url} />
       <section className="content_proyectos">
         <div className="container_text_proyectos">
-          <h2>Te mostramos algunos de nuestros proyectos</h2>
+          <h2>ESPECIALISTAS EN PROYECTOS DE FACHADAS PARA CLIENTES A NIVEL LOCAL.</h2>
           <p>
           En PROYEXI DISEÑO Y CONSTRUCCIÓN S.A.S., estamos comprometidos con brindar 
           soluciones innovadoras y de alta calidad para cada proyecto. Como líderes 

@@ -156,8 +156,8 @@ const Fachadas = () => {
     }, []);
 
     const [args, setArgs] = useState({
-        title: "Fachadas",
-        text: "Realza la Imagen de tu Edificio con Nuestro Servicio de Mantenimiento de Fachadas y Cubiertas ¿Quieres que tu edificio destaque y luzca en su máximo esplendor? Nuestro equipo de expertos en mantenimiento de fachadas y cubiertas está listo para hacerlo realidad. Nos enfocamos en la excelencia y la atención meticulosa a cada detalle, garantizando resultados impecables que realzan la belleza arquitectónica de tu propiedad y generan una impresión duradera. Confía en nosotros para llevar la imagen de tu edificio al siguiente nivel.",
+        title: "TRANSFORMAMOS FACHADAS DE EMPRESAS LÍDERES EN EL PAÍS.",
+        text: "Mejoramos la imagen y protección de tu edificio con servicios especializados en limpieza, mantenimiento y restauración de fachadas.",
         image: imgPrincipal,
         slider: [img_1608, img_16013, img_1604, img_1605, img_1606, img_1607, img_1609, img_16010,
             img_16011, img_16012, img_16015, img_16016, img_16018,

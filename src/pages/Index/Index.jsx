@@ -76,11 +76,9 @@ function Home() {
         <div className="portada">
           <div className="curva__azul">
             <div className="content__curva__azul">
-              <h1 className="title">Proyexi diseño y construcción s.a.s</h1>
+              <h1 className="title">PROYEXI S.A.S</h1>
               <p className="text">
-                Tu Proyecto de Construcción Comienza Aquí: Asesoría y Soluciones
-                 en un Solo Lugar
-                 "Construimos Tus Ideas, Transformamos Tu Espacio"
+              EXPERTOS EN MANTENIMIENTO DE FACHADAS E IMPERMEABILIZACIÓN DE CUBIERTAS.
                 {/* Todo lo que necesitas para ejecutar tu proyecto de
                 construcción en un solo lugar, y lo encuentras aquí, llámanos
                 para asesorarte sin costo. */}

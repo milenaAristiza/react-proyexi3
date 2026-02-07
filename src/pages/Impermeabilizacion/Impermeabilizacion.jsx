@@ -109,8 +109,8 @@ const Impermeabilizacion = () => {
     }, []);
 
     const [args, setArgs] = useState({
-        title: "Impermeabilizacion de cubiertas",
-        text: "Expertos en Impermeabilización de Cubiertas: Soluciones Duraderas y de Alta Calidad En nuestra empresa, nos especializamos en ofrecer servicios de impermeabilización de cubiertas diseñados para proteger tu propiedad de manera eficiente y sostenible. Con nuestras soluciones, prevenimos filtraciones de agua, evitando problemas costosos como goteras, humedad y daños estructurales a largo plazo. Además, contribuimos a mejorar la eficiencia energética de tu espacio y a incrementar el valor de tu propiedad. Confía en nosotros para proteger lo que más importa.",
+        title: "SOLUCIONES EFECTIVAS EN IMPERMEABILIZACIÓN DE CUBIERTAS",
+        text: "Soluciones duraderas para prevenir filtraciones, humedad y daños estructurales en cubiertas residenciales y comerciales.",
         image: imgPrincipal,
         slider: [img10, img12, img11, img2, img1, img5, img6, img7, img8, img9, img13, img14, img15, img16, img17, img18, img19]
     });
