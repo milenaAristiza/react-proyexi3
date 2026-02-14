@@ -290,7 +290,7 @@ h1 {
     }
 
     .text {
-        width: 83vw !important;
+        width: 100vw !important;
         font-size: 3vh;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
