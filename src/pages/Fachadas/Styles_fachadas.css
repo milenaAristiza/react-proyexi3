@@ -412,7 +412,8 @@ body {
   }
 
   .title__fachadas {
-    font-size: 10vw;
+    font-size: 8vw!important;
+    font-family: 'Montserrat', sans-serif;
     width: 90vw;
   }
 
