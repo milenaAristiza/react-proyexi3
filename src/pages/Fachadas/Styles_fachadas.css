@@ -391,7 +391,7 @@ body {
 
 @media only screen and (min-width:320px) and (max-width:768px) {
   .fachadas {
-    height: 165vh;
+    height: 150vh;
     align-items: center;
   }
 
