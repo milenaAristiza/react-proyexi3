@@ -290,7 +290,7 @@ h1 {
     }
 
     .text {
-        width: 80vw;
+        width: 83vw;
     }
 
     .content__curva__azul {
@@ -303,7 +303,7 @@ h1 {
     .container__servicios {
         flex-direction: column;
         align-items: center;
-        height: 155vh;
+        height: 70vh;
     }
 
     .container__servicios {
@@ -317,7 +317,7 @@ h1 {
     .container__servicios>*>h3,
     .sub_servicios_1_title>h3 {
         font-size: 4vh;
-        width: 65vw;
+        width: 83vw;
     }
 
     .button_ver_mas {
@@ -327,7 +327,7 @@ h1 {
     }
 
     .servicios1 {
-        height: 380vh;
+        height: 170vh;
     }
 
     .img_cards {
