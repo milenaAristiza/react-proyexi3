@@ -290,7 +290,9 @@ h1 {
     }
 
     .text {
-        width: 74vw!important;
+        width: 80vw!important;
+        font-size: 3vh;
+        text-align: center;
     }
 
     .content__curva__azul {
