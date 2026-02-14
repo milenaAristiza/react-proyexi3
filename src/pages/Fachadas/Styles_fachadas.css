@@ -473,8 +473,8 @@ body {
   }
 
   .container_slider_fachadas .swiper {
-    width: 100vw;
-    height: 65vh;
+    width: 100vw!important;
+    height: 65vh!important;
   }
 }
 
