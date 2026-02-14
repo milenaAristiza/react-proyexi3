@@ -290,9 +290,10 @@ h1 {
     }
 
     .text {
-        width: 80vw!important;
+        width: 83vw !important;
         font-size: 3vh;
-        text-align: center;
+        /* text-align: center; */
+        font-family: 'Montserrat', sans-serif;
     }
 
     .content__curva__azul {
