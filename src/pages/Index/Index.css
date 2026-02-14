@@ -290,7 +290,7 @@ h1 {
     }
 
     .text {
-        width: 74vw;
+        width: 74vw!important;
     }
 
     .content__curva__azul {
@@ -312,12 +312,12 @@ h1 {
 
     .container__servicios>* {
         gap: 2vh;
+        width: 100px;
     }
 
     .container__servicios>*>h3,
     .sub_servicios_1_title>h3 {
         font-size: 4vh;
-        width: 63vw;
     }
 
     .button_ver_mas {
