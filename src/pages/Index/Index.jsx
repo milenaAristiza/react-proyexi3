@@ -124,7 +124,7 @@ const Hero = () => {
             </ul>
 
             <WhatsappButton
-              text="Solicitar Diagnóstico"
+              text="Solicitar Cotización"
               className="btn-primary"
               message="Hola, quiero un diagnóstico para mi fachada en Bogotá."
             />
