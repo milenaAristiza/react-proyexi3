@@ -3,14 +3,22 @@ import { Link } from "react-router-dom";
 import WhatsappButton from "../../components/Button_whats/Button_whats";
 import imgf from '../../assets/images/fachadas/imgPrincipal.jpeg';
 import ProjectsCarousel from "../../components/CarruselFachadas/Carrusel";
+import Navbar from "../../components/ButtonInicio/ButtonInicio";
 import "./Styles_fachadas.css";
 
 const Fachadas = () => {
     return (
-        <div className="fachadas-container">
 
+
+        <div className="fachadas-container">
+            <>
+                <Navbar src="./hero"/>
+                <Link to="/#hero"></Link>
+                
+                {/* Aquí van tus rutas */}
+            </>
             {/* HERO */}
-            <section className="fachadas-hero">
+            <section id="fachadas-hero" className="fachadas-hero">
                 <div className="fachadas-hero-text">
                     <p className="subtitle">MANTENIMIENTO PROFESIONAL DE</p>
 
@@ -24,14 +32,14 @@ const Fachadas = () => {
                     </p>
 
                     <div className="fachadas-button">
-                    <WhatsappButton
-                        text="Solicitar Cotización"
-                        className="btn-primary"
-                        message="Hola, quiero un diagnóstico profesional para mi fachada en Bogotá."
-                    />
+                        <WhatsappButton
+                            text="Solicitar Cotización"
+                            className="btn-primary"
+                            message="Hola, quiero un diagnóstico profesional para mi fachada en Bogotá."
+                        />
                     </div>
 
-                    
+
                 </div>
 
                 <div className="fachadas-hero-image">

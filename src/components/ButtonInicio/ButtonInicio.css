@@ -1,0 +1,13 @@
+.navbar-container {
+    position: fixed!important;   /* importante */
+    top: 20px;
+    right: 70px;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    height: 55px;
+    cursor: pointer;
+    position: absolute!important;
+    margin: 71px 10px;
+  }
