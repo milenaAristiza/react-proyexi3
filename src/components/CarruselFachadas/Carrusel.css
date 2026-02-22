@@ -1,0 +1,53 @@
+.projects-section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    transition: opacity 0.5s ease;
+    text-align: center!important;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    border: none;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
