@@ -25,7 +25,7 @@ const Fachadas = () => {
 
                     <div className="fachadas-button">
                     <WhatsappButton
-                        text="Solicitar Diagnóstico"
+                        text="Solicitar Cotización"
                         className="btn-primary"
                         message="Hola, quiero un diagnóstico profesional para mi fachada en Bogotá."
                     />
