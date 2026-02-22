@@ -152,8 +152,8 @@ const Hero = () => {
               />
 
               <div className="labels">
-                <span>ANTES</span>
-                <span>DESPUÉS</span>
+                {/*<span>ANTES</span>
+                <span>DESPUÉS</span>*/}
               </div>
 
             </div>
