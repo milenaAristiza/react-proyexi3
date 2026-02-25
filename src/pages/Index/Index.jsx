@@ -187,8 +187,8 @@ const Hero = () => {
           <div className="transform-card">
             <div className="transform-image">
               <img src={img_16020} alt="Colmédica Bogotá" />
-              <span className="label-antes">ANTES</span>
-              <span className="label-despues">DESPUÉS</span>
+              {/*<span className="label-antes">ANTES</span>
+              <span className="label-despues">DESPUÉS</span>*/}
             </div>
 
             <div className="transform-info">
@@ -203,8 +203,8 @@ const Hero = () => {
           <div className="transform-card">
             <div className="transform-image">
               <img src={imgf} alt="AR Centro de Convenciones Bogotá" />
-              <span className="label-antes">ANTES</span>
-              <span className="label-despues">DESPUÉS</span>
+              {/*<span className="label-antes">ANTES</span>
+              <span className="label-despues">DESPUÉS</span>*/}
             </div>
 
             <div className="transform-info">
