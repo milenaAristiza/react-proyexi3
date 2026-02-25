@@ -23,6 +23,7 @@ import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
 import imgf from '../../assets/images/fachadas/comp5.jpeg';
 import WhatsappButton from "../../components/Button_whats/Button_whats";
 import Navbar from "../../components/ButtonInicio/ButtonInicio";
+import Footers from "../../components/Footer/Footer";
 import "./Index.css";
 import "../Fachadas/Fachadas";
 
@@ -224,6 +225,8 @@ const Hero = () => {
           </Link>
         </div>
       </section>
+
+      <Footers />
     </>
   );
 };
