@@ -98,13 +98,12 @@
   font-size:2.3rem;
   margin-bottom:50px;
   color:#111827;
-  text-align: center;
 }
 
 /* GRID */
 .problemas-grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr)!important;
+  grid-template-columns:repeat(4,1fr);
   gap:25px;
   margin-bottom:40px;
 }
@@ -152,12 +151,10 @@
   font-size:2.4rem;
   margin-bottom:50px;
   color:#111827;
-  text-align: center;
 }
 
 .cta-final{
   margin-top:50px;
-  text-align: center;
 }
 
 .fachadas-hero p {
@@ -169,7 +166,7 @@
 @media (max-width:1024px){
 
   .problemas-grid{
-    grid-template-columns:repeat(2,1fr)!important;
+    grid-template-columns:repeat(2,1fr);
   }
 
 }
@@ -181,10 +178,6 @@
     min-height:70vh;
   }
 
-  .fachadas-proyectos h2 {
-    font-size: 1.8rem;
-  }
-
   .fachadas-hero h1{
     font-size:2.2rem;
   }
@@ -193,9 +186,9 @@
     font-size:1rem;
   }
 
-  /*}.problemas-grid{
-    grid-template-columns:1fr!important;
-  }*/
+  .problemas-grid{
+    grid-template-columns:1fr;
+  }
 
   .fachadas-problemas{
     padding:70px 7%;

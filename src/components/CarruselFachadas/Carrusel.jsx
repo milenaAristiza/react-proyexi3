@@ -3,10 +3,10 @@ import imgf from '../../assets/images/fachadas/3.jpeg';
 import img_8 from '../../assets/images/fachadas/8.jpeg';
 import imgPrincipal from '../../assets/images/fachadas/imgPrincipal.jpeg';
 import img_22 from '../../assets/images/fachadas/22.jpeg';
-import img_24 from '../../assets/images/fachadas/24.jpeg';
+/*import img_24 from '../../assets/images/fachadas/24.jpeg';*/
 import img_25 from '../../assets/images/fachadas/25.jpeg';
 import img_26 from '../../assets/images/fachadas/26.jpeg';
-import img_27 from '../../assets/images/fachadas/27.jpeg';
+/*import img_27 from '../../assets/images/fachadas/27.jpeg';*/
 import img_28 from '../../assets/images/fachadas/28.jpeg';
 import img_29 from '../../assets/images/fachadas/29.jpeg';
 import img_31 from '../../assets/images/fachadas/31.jpeg';
@@ -17,8 +17,8 @@ import img_35 from '../../assets/images/fachadas/35.jpeg';
 import img_36 from '../../assets/images/fachadas/36.jpeg';
 import img_37 from '../../assets/images/fachadas/37.jpeg';
 import img_38 from '../../assets/images/fachadas/38.jpeg';
-import img_41 from '../../assets/images/fachadas/41.jpeg';
-import img_43 from '../../assets/images/fachadas/43.jpeg';
+/*import img_41 from '../../assets/images/fachadas/41.jpeg';*/
+/*import img_43 from '../../assets/images/fachadas/43.jpeg';*/
 import img_44 from '../../assets/images/fachadas/44.jpeg';
 import img_45 from '../../assets/images/fachadas/45.jpeg';
 import img_46 from '../../assets/images/fachadas/46.jpeg';
@@ -26,7 +26,7 @@ import img_47 from '../../assets/images/fachadas/47.jpeg';
 import img_48 from '../../assets/images/fachadas/48.jpeg';
 import img_50 from '../../assets/images/fachadas/50.jpeg';
 import img_51 from '../../assets/images/fachadas/51.jpeg';
-import img_52 from '../../assets/images/fachadas/52.jpeg';
+/*import img_52 from '../../assets/images/fachadas/52.jpeg';*/
 import img_53 from '../../assets/images/fachadas/53.jpeg';
 import img_58 from '../../assets/images/fachadas/58.jpeg';
 import img_59 from '../../assets/images/fachadas/59.jpeg';
@@ -34,7 +34,7 @@ import img_61 from '../../assets/images/fachadas/61.jpeg';
 import img_62 from '../../assets/images/fachadas/62.jpeg';
 import img_63 from '../../assets/images/fachadas/63.jpeg';
 import img_64 from '../../assets/images/fachadas/64.jpeg';
-import img_65 from '../../assets/images/fachadas/65.jpeg';
+/*import img_65 from '../../assets/images/fachadas/65.jpeg';*/
 import img_70 from '../../assets/images/fachadas/70.jpeg';
 import img_71 from '../../assets/images/fachadas/71.jpeg';
 import img_73 from '../../assets/images/fachadas/73.jpeg';
@@ -50,9 +50,9 @@ import img_1606 from '../../assets/images/fachadas/comp3.jpeg';
 import img_1607 from '../../assets/images/fachadas/comp4.jpeg';
 import img_1608 from '../../assets/images/fachadas/comp5.jpeg';
 import img_1609 from '../../assets/images/fachadas/comp6.jpeg';
-import img_16010 from '../../assets/images/fachadas/comp7.jpeg';
+/*import img_16010 from '../../assets/images/fachadas/comp7.jpeg';*/
 import img_16011 from '../../assets/images/fachadas/comp8.jpeg';
-import img_16012 from '../../assets/images/fachadas/comp9.jpeg';
+/*import img_16012 from '../../assets/images/fachadas/comp9.jpeg';*/
 import img_16013 from '../../assets/images/fachadas/comp10.jpeg';
 import img_16014 from '../../assets/images/fachadas/comp11.jpeg';
 import img_16015 from '../../assets/images/fachadas/comp12.jpeg';
@@ -61,7 +61,7 @@ import img_16017 from '../../assets/images/fachadas/comp14.jpeg';
 import img_16018 from '../../assets/images/fachadas/nuev.jpeg';
 import img_16019 from '../../assets/images/fachadas/nuev2.jpeg';
 import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
-import img_16021 from '../../assets/images/fachadas/nuev4.jpeg';
+/*import img_16021 from '../../assets/images/fachadas/nuev4.jpeg';*/
 import term from '../../assets/images/fachadas/term.jpeg';
 import "./Carrusel.css";
 
@@ -72,11 +72,19 @@ const projects = [
     },
     {
         title: "Centro de Convenciones",
+        image: img_16018
+    },
+    {
+        title: "Centro de Convenciones",
         image: img_1602
     },
     {
         title: "Centro de Convenciones",
         image: img_1603
+    },
+    {
+        title: "Centro de Convenciones",
+        image: img_16020
     },
     {
         title: "Centro de Convenciones",
@@ -104,15 +112,7 @@ const projects = [
     },
     {
         title: "Centro de Convenciones",
-        image: img_16010
-    },
-    {
-        title: "Centro de Convenciones",
         image: img_16011
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16012
     },
     {
         title: "Centro de Convenciones",
@@ -134,21 +134,10 @@ const projects = [
         title: "Centro de Convenciones",
         image: img_16017
     },
-    {
-        title: "Centro de Convenciones",
-        image: img_16018
-    },
+    
     {
         title: "Centro de Convenciones",
         image: img_16019
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16020
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16021
     },
     {
         title: "Centro de Convenciones",
@@ -173,10 +162,6 @@ const projects = [
     },
     {
         title: "Torre Corporativa",
-        image: img_24
-    },
-    {
-        title: "Torre Corporativa",
         image: img_25
     },
     {
@@ -186,10 +171,6 @@ const projects = [
     {
         title: "Torre Corporativa",
         image: img_26
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_27
     },
     {
         title: "Torre Corporativa",
@@ -233,19 +214,7 @@ const projects = [
     },
     {
         title: "Torre Corporativa",
-        image: img_41
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_43
-    },
-    {
-        title: "Torre Corporativa",
         image: img_44
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_45
     },
     {
         title: "Torre Corporativa",
@@ -263,13 +232,14 @@ const projects = [
         title: "Torre Corporativa",
         image: img_50
     },
+    
     {
         title: "Torre Corporativa",
-        image: img_51
+        image: img_45
     },
     {
         title: "Torre Corporativa",
-        image: img_52
+        image: img_51
     },
     {
         title: "Torre Corporativa",
@@ -298,10 +268,6 @@ const projects = [
     {
         title: "Torre Corporativa",
         image: img_64
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_65
     },
     {
         title: "Torre Corporativa",

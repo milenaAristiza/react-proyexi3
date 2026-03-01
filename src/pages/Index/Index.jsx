@@ -22,8 +22,9 @@ import despuesImg from '../../assets/images/fachadas/imgPrincipal.jpeg';
 import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
 import imgf from '../../assets/images/fachadas/comp5.jpeg';
 import WhatsappButton from "../../components/Button_whats/Button_whats";
-import Navbar from "../../components/ButtonInicio/ButtonInicio";
+{/*import Navbar from "../../components/ButtonInicio/ButtonInicio";*/}
 import Footers from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 import "./Index.css";
 import "../Fachadas/Fachadas";
 
@@ -75,8 +76,8 @@ const Hero = () => {
 
         <div className="hero-content">
           <h1>
-            Transformamos <br />
-            la fachada de tu edificio
+            TRANSFORMAMOS <br />
+            LA FACHADA DE TU EDIFICIO
           </h1>
 
           <p>
