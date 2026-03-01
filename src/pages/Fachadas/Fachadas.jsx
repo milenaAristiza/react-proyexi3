@@ -29,7 +29,7 @@ const Fachadas = () => {
 
           <p className="description">
             Servicio seguro, profesional y eficiente para edificios
-            empresariales, clínicas y centros comerciales en Bogotá.
+            empresariales, clínicas y centros comerciales.
           </p>
 
           <div className="fachadas-button">

@@ -67,231 +67,157 @@ import "./Carrusel.css";
 
 const projects = [
     {
-        title: "Centro de Convenciones",
-        image: img_1601
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16018
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_1602
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_1603
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16020
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_1604
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_1605
-    },
-    {
-        title: "Centro de Convenciones",
+        title: "Centro de Convenciones ar",
         image: img_1606
     },
     {
-        title: "Centro de Convenciones",
+        title: "Edificio bonavento",
         image: img_1607
     },
     {
-        title: "Centro de Convenciones",
-        image: img_1608
+        title: "Edificio portal estrella",
+        image: img_1601
     },
     {
-        title: "Centro de Convenciones",
-        image: img_1609
+        title: "Colmedica",
+        image: img_16018
     },
     {
-        title: "Centro de Convenciones",
-        image: img_16011
+        title: "Edificio portal estrella",
+        image: img_1603
     },
     {
-        title: "Centro de Convenciones",
-        image: img_16013
+        title: "Colmedica",
+        image: img_16020
     },
     {
-        title: "Centro de Convenciones",
-        image: img_16014
+        title: "Edificio bonavento",
+        image: img_1604
     },
     {
-        title: "Centro de Convenciones",
-        image: img_16015
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16016
-    },
-    {
-        title: "Centro de Convenciones",
-        image: img_16017
-    },
-    
-    {
-        title: "Centro de Convenciones",
-        image: img_16019
-    },
-    {
-        title: "Centro de Convenciones",
-        image: term
-    },
-
-    {
-        title: "Centro de Convenciones",
+        title: "Universidad EAN",
         image: imgf
     },
     {
-        title: "Edificio Empresarial",
+        title: "Edificio bonavento",
+        image: img_1609
+    },
+    {
+        title: "Colmedica",
+        image: img_16011
+    },
+    {
+        title: "Edificio portal estrella",
+        image: img_1602
+    },
+    {
+        title: "Centro de Convenciones ar",
+        image: img_16013
+    },
+    {
+        title: "Colmedica",
+        image: img_16014
+    },
+    {
+        title: "Centro de Convenciones ar",
+        image: img_16015
+    },
+    {
+        title: "Colmedica",
+        image: img_16017
+    },
+    {
+        title: "Portal estrella",
+        image: term
+    },
+    {
+        title: "Universidad EAN",
         image: img_8
     },
     {
-        title: "Hotel Internacional",
+        title: "Edificio CEFE chapinero",
         image: imgPrincipal
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio agricola",
         image: img_22
     },
     {
-        title: "Torre Corporativa",
+        title: "Universidad EAN",
         image: img_25
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio merceditas ph",
         image: img_26
     },
     {
-        title: "Torre Corporativa",
-        image: img_26
+        title: "Centro de Convenciones ar",
+        image: img_1608
     },
     {
-        title: "Torre Corporativa",
-        image: img_28
-    },
-    {
-        title: "Torre Corporativa",
+        title: "Edificio merceditas ph",
         image: img_29
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio agricola",
         image: img_31
     },
     {
-        title: "Torre Corporativa",
-        image: img_32
-    },
-    {
-        title: "Torre Corporativa",
+        title: "Edificio pacific park ph",
         image: img_33
     },
     {
-        title: "Torre Corporativa",
-        image: img_34
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_35
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_36
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_37
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_38
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_44
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_46
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_47
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_48
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_50
-    },
-    
-    {
-        title: "Torre Corporativa",
-        image: img_45
-    },
-    {
-        title: "Torre Corporativa",
+        title: "Edificio CEFE chapinero",
         image: img_51
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio agricola",
+        image: img_34
+    },
+    {
+        title: "Edificio portal estrella",
+        image: img_36
+    },
+    {
+        title: "Edificio merceditas ph",
+        image: img_37
+    },
+    {
+        title: "Universidad EAN",
+        image: img_44
+    },
+    {
+        title: "Edificio comodoro ph",
+        image: img_47
+    },
+    
+    {
+        title: "Universidad EAN",
+        image: img_45
+    },
+    {
+        title: "Edificio CEFE chapinero",
         image: img_53
     },
     {
-        title: "Torre Corporativa",
-        image: img_58
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_59
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_61
-    },
-    {
-        title: "Torre Corporativa",
+        title: "Edificio merceditas ph",
         image: img_62
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio bonavento",
+        image: img_1605
+    },
+    {
+        title: "Edificio portal estrella",
         image: img_63
     },
     {
-        title: "Torre Corporativa",
+        title: "Edificio agricola",
         image: img_64
     },
     {
-        title: "Torre Corporativa",
-        image: img_70
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_71
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_73
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_80
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_81
-    },
-    {
-        title: "Torre Corporativa",
-        image: img_82
+        title: "Universidad EAN",
+        image: img_46
     }
 ];
 
