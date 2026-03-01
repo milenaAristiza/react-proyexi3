@@ -10,6 +10,10 @@ import PrivacyPolicy from "../../pages/Politica/Politica";
 
 const Footer = () => {
     return (
+        <section id="foot"
+        className="foot">
+
+        
         <footer className="pie-pagina" id="footer">
             <div className="grupo-1" id="footer">
                 <div className="box">
@@ -56,6 +60,8 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+
+        </section>
     );
 }
 
