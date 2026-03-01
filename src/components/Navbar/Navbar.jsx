@@ -25,9 +25,10 @@ const Navbar = () => {
         </Link>
 
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <a href="#servicios">Servicios</a>
-          <a href="#relaciones">Relaciones</a>
-          <Link to="/fachadas">Proyectos</Link>
+        <Link to="/fachadas">Fachadas</Link>
+        <Link to="/#hero">Inicio</Link>
+        <Link to="/#footer">Contacto</Link>
+          
         </nav>
 
         <div 

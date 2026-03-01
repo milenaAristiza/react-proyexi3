@@ -11,7 +11,7 @@ import PrivacyPolicy from "../../pages/Politica/Politica";
 const Footer = () => {
     return (
         <footer className="pie-pagina" id="footer">
-            <div className="grupo-1">
+            <div className="grupo-1" id="footer">
                 <div className="box">
                     <figure>
                         <Link to="#">
