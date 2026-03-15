@@ -1,5 +1,5 @@
 import React from 'react';
-import LOGO_PROYEXI_TRANSPARENTE from './LOGO_PROYEXI_TRANSPARENTE.png';
+import LOGO_PROYEXI_TRANSPARENTE from './lf.png';
 import img_correo from './imgcorreo.png';
 import correos from './correos.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
