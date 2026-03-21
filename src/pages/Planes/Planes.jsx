@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import iconBasic from "./i1.png";
 import iconinter from "./i2.png";
 import iconcomplet from "./i3.png";
+import Footers from "../../components/Footer/Footer";
 import "./Planes.css";
 
 export default function PlanesFachadasPage() {
@@ -122,6 +123,8 @@ export default function PlanesFachadasPage() {
         </div>
 
       </section>
+
+      <Footers />
 
     </div>
   );
