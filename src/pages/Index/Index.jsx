@@ -25,6 +25,7 @@ import WhatsappButton from "../../components/Button_whats/Button_whats";
 {/*import Navbar from "../../components/ButtonInicio/ButtonInicio";*/}
 import Footers from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Planes from "../../pages/Planes/Planes";
 import "./Index.css";
 import "../Fachadas/Fachadas";
 

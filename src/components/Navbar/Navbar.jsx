@@ -19,19 +19,18 @@ const Navbar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
-        
+
         <Link to="/" className="logo">
           <img src={logo} alt="Proyexi Diseño & Construcción" />
         </Link>
 
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <Link to="/fachadas">Fachadas</Link>
-        <Link to="/#hero">Inicio</Link>
-        {/*<Link to="/#foot">Contacto</Link>*/}
-          
+          <Link to="/">Inicio</Link>
+          <Link to="/fachadas">Fachadas</Link>
+          <Link to="/planes">Planes</Link>
         </nav>
 
-        <div 
+        <div
           className={`menu-toggle ${menuOpen ? "open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
