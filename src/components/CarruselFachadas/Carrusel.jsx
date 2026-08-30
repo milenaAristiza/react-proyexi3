@@ -58,6 +58,9 @@ import img_16014 from '../../assets/images/fachadas/comp11.jpeg';
 import img_16015 from '../../assets/images/fachadas/comp12.jpeg';
 import img_16016 from '../../assets/images/fachadas/comp13.jpeg';
 import img_16017 from '../../assets/images/fachadas/comp14.jpeg';
+import portada from '../../assets/images/fachadas/portadaf.jpeg';
+import portada2 from '../../assets/images/fachadas/portada2.jpg';
+import portada3 from '../../assets/images/fachadas/portada3.jpeg';
 import img_16018 from '../../assets/images/fachadas/nuev.jpeg';
 import img_16019 from '../../assets/images/fachadas/nuev2.jpeg';
 import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
@@ -66,6 +69,23 @@ import term from '../../assets/images/fachadas/term.jpeg';
 import "./Carrusel.css";
 
 const projects = [
+    {
+        title: "",
+        image: portada
+    },
+    ,
+    {
+        title: "",
+        image: portada2
+    },
+    {
+        title: "",
+        image: portada3
+    },
+    {
+        title: "Edificio CEFE chapinero",
+        image: imgPrincipal
+    },
     {
         title: "Centro de Convenciones ar",
         image: img_1606
@@ -134,10 +154,7 @@ const projects = [
         title: "Universidad EAN",
         image: img_8
     },
-    {
-        title: "Edificio CEFE chapinero",
-        image: imgPrincipal
-    },
+    
     {
         title: "Edificio agricola",
         image: img_22

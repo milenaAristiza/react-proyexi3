@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import WhatsappButton from "../../components/Button_whats/Button_whats";
 import imgf from "../../assets/images/fachadas/imgPrincipal.jpeg";
 import img3 from "../../assets/images/fachadas/60.jpeg";
+import portada from "../../assets/images/fachadas/portadaf.jpeg";
 import ProjectsCarousel from "../../components/CarruselFachadas/Carrusel";
 import Footers from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
