@@ -73,7 +73,11 @@ const projects = [
         title: "",
         image: portada
     },
-    
+    ,
+    {
+        title: "",
+        image: portada2
+    },
     {
         title: "",
         image: portada3
