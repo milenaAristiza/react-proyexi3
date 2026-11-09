@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import WhatsappButton from "../../components/Button_whats/Button_whats";
 import imgf from "../../assets/images/fachadas/imgPrincipal.jpeg";
@@ -10,6 +11,29 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./Styles_fachadas.css";
 
 const Fachadas = () => {
+
+  // GOOGLE ADS
+  useEffect(() => {
+    if (window.gtag) return;
+
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-16614584501";
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+
+    window.gtag = gtag;
+
+    gtag("js", new Date());
+    gtag("config", "AW-16614584501");
+
+  }, []);
+
   return (
     <div className="fachadas-container">
 
