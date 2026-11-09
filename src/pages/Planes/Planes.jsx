@@ -1,5 +1,4 @@
-
-import React, { useEffect } from "react";
+import React from "react";
 import { Check } from "lucide-react";
 import Navbar from "../../components/Navbar/Navbar";
 import iconBasic from "./i1.png";
@@ -10,29 +9,7 @@ import "./Planes.css";
 
 export default function PlanesFachadasPage() {
 
-  // GOOGLE ADS
-  useEffect(() => {
-    if (window.gtag) return;
-
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-16614584501";
-    document.head.appendChild(script);
-
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-
-    window.gtag = gtag;
-
-    gtag("js", new Date());
-    gtag("config", "AW-16614584501");
-
-  }, []);
-
-  // TU NUMERO DE WHATSAPP
+  // TU NUMERO DE WHATSAPP (CON CODIGO DE PAIS SIN + NI ESPACIOS)
   const phoneNumber = "3125883290";
 
   const plans = [
@@ -83,13 +60,16 @@ export default function PlanesFachadasPage() {
 
       <section className="planes-page">
 
-        <div className="planes-wrapper">
-          <div className="planes-header">
-            <h1>Planes de Mantenimiento de Fachadas</h1>
-            <p>Elige el plan ideal para mantener tu edificio impecable.</p>
-          </div>
+        
 
+        <div className="planes-wrapper">
+        <div className="planes-header">
+          <h1>Planes de Mantenimiento de Fachadas</h1>
+          <p>Elige el plan ideal para mantener tu edificio impecable.</p>
+        </div>
           <div className="planes-container">
+
+            
 
             {plans.map((plan, index) => (
 
@@ -101,6 +81,7 @@ export default function PlanesFachadasPage() {
 
                 <div className="plan-content">
 
+                  {/* ICONO DEL PLAN */}
                   {plan.icon && (
                     <div className="plan-icon">
                       <img src={plan.icon} alt={plan.name} />
@@ -120,6 +101,7 @@ export default function PlanesFachadasPage() {
                     {plan.frequency}
                   </p>
 
+                  {/* BOTON WHATSAPP */}
                   <a
                     href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(`Hola, deseo solicitar el ${plan.name} de mantenimiento de fachadas.`)}`}
                     target="_blank"
@@ -137,6 +119,7 @@ export default function PlanesFachadasPage() {
             ))}
 
           </div>
+
         </div>
 
       </section>
