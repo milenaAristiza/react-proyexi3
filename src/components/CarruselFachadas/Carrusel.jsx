@@ -65,6 +65,14 @@ import img_16018 from '../../assets/images/fachadas/nuev.jpeg';
 import img_16019 from '../../assets/images/fachadas/nuev2.jpeg';
 import img_16020 from '../../assets/images/fachadas/nuev3.jpeg';
 /*import img_16021 from '../../assets/images/fachadas/nuev4.jpeg';*/
+import img_new4 from '../../assets/images/fachadas/newimg4.jpeg';
+import img_new3 from '../../assets/images/fachadas/newimg3.jpeg';
+import img_new2 from '../../assets/images/fachadas/newimg2.jpeg';
+import img_new1 from '../../assets/images/fachadas/newimg1.jpeg';
+import img_new5 from '../../assets/images/fachadas/3.jpeg';
+import img_new7 from '../../assets/images/fachadas/newimg7.jpeg';
+import img_new8 from '../../assets/images/fachadas/newimg8.jpeg';
+import img_new9 from '../../assets/images/fachadas/newimg9.jpeg';
 import term from '../../assets/images/fachadas/term.jpeg';
 import "./Carrusel.css";
 
@@ -73,7 +81,54 @@ const projects = [
         title: "",
         image: portada
     },
-    ,
+    {
+        title: "",
+        image: img_new1
+    },
+    {
+        title: "",
+        image: img_new2
+    },
+    {
+        title: "",
+        image: img_new3
+    },
+    {
+        title: "",
+        image: img_new4
+    },
+    {
+        title: "Edificio CEFE chapinero",
+        image: imgPrincipal
+    },
+    {
+        title: "Edificio CEFE chapinero",
+        image: img_new5
+    },
+    {
+        title: "Centro de Convenciones ar",
+        image: img_1606
+    },
+    {
+        title: "Colmedica",
+        image: img_16018
+    },
+    {
+        title: "Colmedica",
+        image: img_16016
+    },
+    {
+        title: "",
+        image: img_new7
+    },
+    {
+        title: "",
+        image: img_new8
+    },
+    {
+        title: "",
+        image: img_new9
+    },
     {
         title: "",
         image: portada2
@@ -83,24 +138,12 @@ const projects = [
         image: portada3
     },
     {
-        title: "Edificio CEFE chapinero",
-        image: imgPrincipal
-    },
-    {
-        title: "Centro de Convenciones ar",
-        image: img_1606
-    },
-    {
         title: "Edificio bonavento",
         image: img_1607
     },
     {
         title: "Edificio portal estrella",
         image: img_1601
-    },
-    {
-        title: "Colmedica",
-        image: img_16018
     },
     {
         title: "Edificio portal estrella",
